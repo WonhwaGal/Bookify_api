@@ -1,0 +1,78 @@
+version: '3.4'
+
+services:
+  bookify-api:
+    image: bookify.api
+    container_name: Bookify.Api
+    build:
+      context: .
+      dockerfile: Bookify/Dockerfile
+    depends_on:
+      - bookify-db
+  bookify-db:
+    image: mcr.microsoft.com/mssql/server:latest
+    container_name: Bookify.Db
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=1234512345Aa$
+      - MSSQL_PID=Express
+    volumes:
+      - ./.containers/db-bookify:/var/opt/mssql/data
+    ports:
+      - "1433:1433"
+  bookify-identity-db:
+    image: mcr.microsoft.com/mssql/server:latest
+    container_name: Bookify.Identity.Db
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=1234512345Aa$
+      - MSSQL_PID=Express
+    volumes:
+      - ./.containers/db-bookify-identity:/var/opt/mssql/data
+    ports:
+      - "1434:1433"
+  bookify-seq:
+    image: datalust/seq:latest
+    container_name: Bookify.Seq
+    environment:
+      - ACCEPT_EULA=Y
+    ports:
+      - 5341:5341
+      - 8081:80
+  mailservice-api:
+    image: mailservice.api
+    container_name: MailService.Api
+    build:
+      context: .
+      dockerfile: MailService.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+    ports:
+      - "8180:8080"
+  smsservice-api:
+    image: smsservice.api
+    container_name: SmsService.Api
+    build:
+      context: .
+      dockerfile: SmsService.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+    ports:
+      - "8280:8080"
+  bookify-redis:
+    image: redis:latest
+    container_name: Bookify.Redis
+    restart: always
+    ports:
+      - 6379:6379
+  bookify-redis-commander:
+    hostname: redis-commander
+    image: rediscommander/redis-commander:latest
+    container_name: Bookify.Redis.Commander
+    restart: always
+    environment:
+      - REDIS_HOSTS=local:Bookify.Redis:6379
+    ports:
+      - "8083:8081"

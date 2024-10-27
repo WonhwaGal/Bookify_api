@@ -1,0 +1,2079 @@
+2024-10-27 10:58:59.634 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-10-27 10:58:59.730 +00:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-10-27 10:58:59.733 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-10-27 10:58:59.735 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-10-27 10:58:59.756 +00:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-10-27 10:58:59.769 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-10-27 10:58:59.874 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-10-27 10:58:59.886 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-27 10:58:59.886 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-27 10:58:59.887 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-27 10:58:59.887 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-27 10:58:59.888 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-27 10:58:59.888 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-27 10:59:00.462 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-10-27 10:59:00.464 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-10-27 10:59:00.465 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-10-27 10:59:00.467 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-10-27 10:59:00.484 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-10-27 10:59:00.486 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-10-27 10:59:00.901 +00:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-10-27 10:59:01.174 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-10-27 10:59:01.175 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-10-27 10:59:01.195 +00:00 [INF] Initializing UI Database
+2024-10-27 10:59:01.450 +00:00 [INF] Saving healthchecks configuration to database
+2024-10-27 10:59:01.620 +00:00 [INF] Saved 1 entities to in-memory store.
+2024-10-27 10:59:01.640 +00:00 [INF] Creating key {2f4644c5-877a-4d07-9113-0ba9986db1ad} with creation date 2024-10-27 10:59:01Z, activation date 2024-10-27 10:59:01Z, and expiration date 2025-01-25 10:59:01Z.
+2024-10-27 10:59:01.651 +00:00 [WRN] No XML encryptor configured. Key {2f4644c5-877a-4d07-9113-0ba9986db1ad} may be persisted to storage in unencrypted form.
+2024-10-27 10:59:01.705 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-27 10:59:01.757 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-27 10:59:01.758 +00:00 [INF] Quartz Scheduler created
+2024-10-27 10:59:01.759 +00:00 [INF] RAMJobStore initialized.
+2024-10-27 10:59:01.760 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-27 10:59:01.761 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-27 10:59:01.762 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-27 10:59:01.764 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-10-27 10:59:01.819 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-10-27 10:59:01.958 +00:00 [INF] Now listening on: http://[::]:80
+2024-10-27 10:59:02.569 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 10:59:02.572 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 10:59:02.581 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-27 10:59:02.582 +00:00 [INF] Hosting environment: Development
+2024-10-27 10:59:02.582 +00:00 [INF] Content root path: /app
+2024-10-27 10:59:02.617 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 10:59:02.696 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 10:59:02.696 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 10:59:02.697 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 10:59:02.697 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 10:59:02.876 +00:00 [INF] Received HTTP response headers after 176.4447ms - 200
+2024-10-27 10:59:02.881 +00:00 [INF] End processing HTTP request after 184.5637ms - 200
+2024-10-27 10:59:02.915 +00:00 [INF] Received HTTP response headers after 217.2387ms - 200
+2024-10-27 10:59:02.916 +00:00 [INF] End processing HTTP request after 220.2859ms - 200
+2024-10-27 10:59:02.997 +00:00 [INF] Received HTTP response headers after 424.3384ms - 200
+2024-10-27 10:59:02.997 +00:00 [INF] End processing HTTP request after 430.2988ms - 200
+2024-10-27 10:59:02.999 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 382.0175ms
+2024-10-27 10:59:03.182 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 10:59:23.209 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 10:59:23.210 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 10:59:23.213 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 10:59:23.239 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 10:59:23.240 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 10:59:23.270 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 10:59:23.273 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 10:59:23.300 +00:00 [INF] Received HTTP response headers after 56.6243ms - 200
+2024-10-27 10:59:23.362 +00:00 [INF] Received HTTP response headers after 65.6819ms - 200
+2024-10-27 10:59:23.362 +00:00 [INF] End processing HTTP request after 123.156ms - 200
+2024-10-27 10:59:23.363 +00:00 [INF] End processing HTTP request after 93.0992ms - 200
+2024-10-27 10:59:23.365 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 151.8365ms
+2024-10-27 10:59:23.366 +00:00 [INF] Received HTTP response headers after 154.9475ms - 200
+2024-10-27 10:59:23.366 +00:00 [INF] End processing HTTP request after 157.0926ms - 200
+2024-10-27 10:59:23.381 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 10:59:30.044 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 10:59:43.388 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 10:59:43.388 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 10:59:43.476 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 10:59:43.478 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 10:59:43.478 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 10:59:43.549 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 10:59:43.552 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 10:59:43.552 +00:00 [INF] Received HTTP response headers after 52.2236ms - 200
+2024-10-27 10:59:43.557 +00:00 [INF] End processing HTTP request after 77.4293ms - 200
+2024-10-27 10:59:43.580 +00:00 [INF] Received HTTP response headers after 25.6305ms - 200
+2024-10-27 10:59:43.601 +00:00 [INF] End processing HTTP request after 52.8269ms - 200
+2024-10-27 10:59:43.602 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 128.0938ms
+2024-10-27 10:59:43.602 +00:00 [INF] Received HTTP response headers after 213.5686ms - 200
+2024-10-27 10:59:43.603 +00:00 [INF] End processing HTTP request after 215.6709ms - 200
+2024-10-27 10:59:43.605 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 10:59:45.014 +00:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 10:59:45.030 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 10:59:45.088 +00:00 [INF] Executed DbCommand (22ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:00:00.007 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:00:00.010 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:00:00.012 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:00:00.015 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:00:03.610 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:00:03.611 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:00:03.614 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:00:03.616 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:00:03.637 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:00:03.650 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:00:03.673 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:00:03.673 +00:00 [INF] Received HTTP response headers after 32.6174ms - 200
+2024-10-27 11:00:03.716 +00:00 [INF] End processing HTTP request after 99.7441ms - 200
+2024-10-27 11:00:03.760 +00:00 [INF] Received HTTP response headers after 65.8055ms - 200
+2024-10-27 11:00:03.760 +00:00 [INF] End processing HTTP request after 110.5632ms - 200
+2024-10-27 11:00:03.761 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 147.6296ms
+2024-10-27 11:00:03.762 +00:00 [INF] Received HTTP response headers after 149.4554ms - 200
+2024-10-27 11:00:03.762 +00:00 [INF] End processing HTTP request after 151.5199ms - 200
+2024-10-27 11:00:03.764 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:00:23.768 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:00:23.769 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:00:23.793 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:00:23.821 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:00:23.822 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:00:23.852 +00:00 [INF] Received HTTP response headers after 27.2211ms - 200
+2024-10-27 11:00:23.853 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:00:23.855 +00:00 [INF] End processing HTTP request after 33.6755ms - 200
+2024-10-27 11:00:23.855 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:00:23.880 +00:00 [INF] Received HTTP response headers after 24.4326ms - 200
+2024-10-27 11:00:23.881 +00:00 [INF] End processing HTTP request after 28.3882ms - 200
+2024-10-27 11:00:23.882 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 88.513ms
+2024-10-27 11:00:23.882 +00:00 [INF] Received HTTP response headers after 112.1741ms - 200
+2024-10-27 11:00:23.883 +00:00 [INF] End processing HTTP request after 114.2736ms - 200
+2024-10-27 11:00:23.885 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:00:30.022 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:00:43.886 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:00:43.886 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:00:43.888 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:00:43.936 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:00:43.938 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:00:43.971 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:00:43.993 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:00:44.021 +00:00 [INF] Received HTTP response headers after 61.6497ms - 200
+2024-10-27 11:00:44.022 +00:00 [INF] End processing HTTP request after 86.6774ms - 200
+2024-10-27 11:00:44.026 +00:00 [INF] Received HTTP response headers after 10.4452ms - 200
+2024-10-27 11:00:44.027 +00:00 [INF] End processing HTTP request after 55.6973ms - 200
+2024-10-27 11:00:44.028 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 139.6679ms
+2024-10-27 11:00:44.028 +00:00 [INF] Received HTTP response headers after 141.5566ms - 200
+2024-10-27 11:00:44.029 +00:00 [INF] End processing HTTP request after 142.9466ms - 200
+2024-10-27 11:00:44.035 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:00:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:00:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:00:45.005 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:01:00.023 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:01:00.023 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:01:00.027 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:01:00.071 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:01:04.033 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:01:04.033 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:01:04.173 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:01:04.195 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:01:04.195 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:01:04.196 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:01:04.197 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:01:04.281 +00:00 [INF] Received HTTP response headers after 82.8946ms - 200
+2024-10-27 11:01:04.281 +00:00 [INF] End processing HTTP request after 85.994ms - 200
+2024-10-27 11:01:04.309 +00:00 [INF] Received HTTP response headers after 112.0651ms - 200
+2024-10-27 11:01:04.310 +00:00 [INF] End processing HTTP request after 114.9294ms - 200
+2024-10-27 11:01:04.311 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 137.5682ms
+2024-10-27 11:01:04.311 +00:00 [INF] Received HTTP response headers after 277.1343ms - 200
+2024-10-27 11:01:04.311 +00:00 [INF] End processing HTTP request after 278.8291ms - 200
+2024-10-27 11:01:04.314 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:01:24.314 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:01:24.315 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:01:24.339 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:01:24.363 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:01:24.387 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:01:24.394 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:01:24.397 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:01:24.413 +00:00 [INF] Received HTTP response headers after 25.2499ms - 200
+2024-10-27 11:01:24.414 +00:00 [INF] End processing HTTP request after 50.3824ms - 200
+2024-10-27 11:01:24.427 +00:00 [INF] Received HTTP response headers after 30.0448ms - 200
+2024-10-27 11:01:24.428 +00:00 [INF] End processing HTTP request after 34.1178ms - 200
+2024-10-27 11:01:24.429 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 90.1561ms
+2024-10-27 11:01:24.429 +00:00 [INF] Received HTTP response headers after 113.6985ms - 200
+2024-10-27 11:01:24.429 +00:00 [INF] End processing HTTP request after 115.1533ms - 200
+2024-10-27 11:01:24.431 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:01:30.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:01:44.432 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:01:44.433 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:01:44.434 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:01:44.436 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:01:44.437 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:01:44.471 +00:00 [INF] Received HTTP response headers after 31.3427ms - 200
+2024-10-27 11:01:44.472 +00:00 [INF] End processing HTTP request after 35.8663ms - 200
+2024-10-27 11:01:44.496 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:01:44.496 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:01:44.504 +00:00 [INF] Received HTTP response headers after 5.1589ms - 200
+2024-10-27 11:01:44.505 +00:00 [INF] End processing HTTP request after 11.1014ms - 200
+2024-10-27 11:01:44.506 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 71.118ms
+2024-10-27 11:01:44.506 +00:00 [INF] Received HTTP response headers after 72.3771ms - 200
+2024-10-27 11:01:44.506 +00:00 [INF] End processing HTTP request after 73.9943ms - 200
+2024-10-27 11:01:44.508 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:01:45.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:01:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:01:45.006 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:02:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:02:00.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:02:00.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:02:00.010 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:02:04.501 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:02:04.501 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:02:04.503 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:02:04.505 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:02:04.505 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:02:04.507 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:02:04.510 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:02:04.535 +00:00 [INF] Received HTTP response headers after 23.6062ms - 200
+2024-10-27 11:02:04.535 +00:00 [INF] End processing HTTP request after 28.6417ms - 200
+2024-10-27 11:02:04.566 +00:00 [INF] Received HTTP response headers after 58.8401ms - 200
+2024-10-27 11:02:04.567 +00:00 [INF] End processing HTTP request after 62.1601ms - 200
+2024-10-27 11:02:04.570 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 66.9978ms
+2024-10-27 11:02:04.571 +00:00 [INF] Received HTTP response headers after 69.051ms - 200
+2024-10-27 11:02:04.571 +00:00 [INF] End processing HTTP request after 70.533ms - 200
+2024-10-27 11:02:04.573 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:02:24.570 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:02:24.571 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:02:24.595 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:02:24.641 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:02:24.661 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:02:24.711 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:02:24.711 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:02:24.711 +00:00 [INF] Received HTTP response headers after 47.5726ms - 200
+2024-10-27 11:02:24.714 +00:00 [INF] End processing HTTP request after 73.2916ms - 200
+2024-10-27 11:02:24.720 +00:00 [INF] Received HTTP response headers after 5.9959ms - 200
+2024-10-27 11:02:24.720 +00:00 [INF] End processing HTTP request after 9.2976ms - 200
+2024-10-27 11:02:24.721 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 125.2032ms
+2024-10-27 11:02:24.721 +00:00 [INF] Received HTTP response headers after 147.3625ms - 200
+2024-10-27 11:02:24.721 +00:00 [INF] End processing HTTP request after 150.8937ms - 200
+2024-10-27 11:02:24.723 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:02:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:02:44.720 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:02:44.721 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:02:44.727 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:02:44.751 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:02:44.754 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:02:44.780 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:02:44.800 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:02:44.842 +00:00 [INF] Received HTTP response headers after 65.7055ms - 200
+2024-10-27 11:02:44.845 +00:00 [INF] End processing HTTP request after 114.8435ms - 200
+2024-10-27 11:02:44.870 +00:00 [INF] Received HTTP response headers after 25.753ms - 200
+2024-10-27 11:02:44.871 +00:00 [INF] End processing HTTP request after 91.5259ms - 200
+2024-10-27 11:02:44.872 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 145.1247ms
+2024-10-27 11:02:44.872 +00:00 [INF] Received HTTP response headers after 148.7901ms - 200
+2024-10-27 11:02:44.873 +00:00 [INF] End processing HTTP request after 152.7788ms - 200
+2024-10-27 11:02:44.875 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:02:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:02:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:02:45.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:03:00.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:03:00.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:03:00.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:03:00.010 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:03:04.872 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:03:04.872 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:03:04.922 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:03:04.965 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:03:04.965 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:03:04.968 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:03:04.968 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:03:05.037 +00:00 [INF] Received HTTP response headers after 62.2718ms - 200
+2024-10-27 11:03:05.037 +00:00 [INF] End processing HTTP request after 72.3632ms - 200
+2024-10-27 11:03:05.059 +00:00 [INF] Received HTTP response headers after 84.2586ms - 200
+2024-10-27 11:03:05.059 +00:00 [INF] End processing HTTP request after 93.9552ms - 200
+2024-10-27 11:03:05.060 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 138.2322ms
+2024-10-27 11:03:05.060 +00:00 [INF] Received HTTP response headers after 187.0442ms - 200
+2024-10-27 11:03:05.061 +00:00 [INF] End processing HTTP request after 188.9527ms - 200
+2024-10-27 11:03:05.062 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:03:25.060 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:03:25.060 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:03:25.083 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:03:25.129 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:03:25.132 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:03:25.137 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:03:25.140 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:03:25.140 +00:00 [INF] Received HTTP response headers after 7.6096ms - 200
+2024-10-27 11:03:25.164 +00:00 [INF] End processing HTTP request after 35.2471ms - 200
+2024-10-27 11:03:25.165 +00:00 [INF] Received HTTP response headers after 24.6837ms - 200
+2024-10-27 11:03:25.166 +00:00 [INF] End processing HTTP request after 29.1088ms - 200
+2024-10-27 11:03:25.211 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 125.5903ms
+2024-10-27 11:03:25.211 +00:00 [INF] Received HTTP response headers after 150.6998ms - 200
+2024-10-27 11:03:25.212 +00:00 [INF] End processing HTTP request after 152.0876ms - 200
+2024-10-27 11:03:25.213 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:03:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:03:32.862 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/ - null null
+2024-10-27 11:03:33.012 +00:00 [INF] HTTP GET / responded 404 in 94.9423 ms
+2024-10-27 11:03:33.015 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+QueryString: 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 404
+Duration: 99.7374
+2024-10-27 11:03:33.017 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/ - 404 0 null 155.8731ms
+2024-10-27 11:03:33.020 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/, Response status code: 404
+2024-10-27 11:03:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:03:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:03:45.005 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:03:45.224 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:03:45.225 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:03:45.247 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:03:45.249 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:03:45.270 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:03:45.317 +00:00 [INF] Received HTTP response headers after 46.6876ms - 200
+2024-10-27 11:03:45.338 +00:00 [INF] End processing HTTP request after 88.8152ms - 200
+2024-10-27 11:03:45.341 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:03:45.344 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:03:45.369 +00:00 [INF] Received HTTP response headers after 22.6719ms - 200
+2024-10-27 11:03:45.370 +00:00 [INF] End processing HTTP request after 28.854ms - 200
+2024-10-27 11:03:45.373 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 126.2336ms
+2024-10-27 11:03:45.373 +00:00 [INF] Received HTTP response headers after 147.3852ms - 200
+2024-10-27 11:03:45.373 +00:00 [INF] End processing HTTP request after 148.8974ms - 200
+2024-10-27 11:03:45.375 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:04:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:04:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:04:00.006 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:04:00.009 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:04:05.372 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:04:05.372 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:04:05.374 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:04:05.397 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:04:05.398 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:04:05.423 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:04:05.425 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:04:05.427 +00:00 [INF] Received HTTP response headers after 28.565ms - 200
+2024-10-27 11:04:05.432 +00:00 [INF] End processing HTTP request after 33.7834ms - 200
+2024-10-27 11:04:05.454 +00:00 [INF] Received HTTP response headers after 7.8767ms - 200
+2024-10-27 11:04:05.455 +00:00 [INF] End processing HTTP request after 32.8403ms - 200
+2024-10-27 11:04:05.456 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 82.0396ms
+2024-10-27 11:04:05.456 +00:00 [INF] Received HTTP response headers after 83.6546ms - 200
+2024-10-27 11:04:05.457 +00:00 [INF] End processing HTTP request after 84.8691ms - 200
+2024-10-27 11:04:05.458 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:04:17.520 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/ - null null
+2024-10-27 11:04:17.524 +00:00 [INF] HTTP GET / responded 404 in 1.6880 ms
+2024-10-27 11:04:17.525 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+QueryString: 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 404
+Duration: 2.7509
+2024-10-27 11:04:17.527 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/ - 404 0 null 6.7331ms
+2024-10-27 11:04:17.528 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/, Response status code: 404
+2024-10-27 11:04:25.464 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:04:25.464 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:04:25.467 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:04:25.472 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:04:25.475 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:04:25.481 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:04:25.486 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:04:25.507 +00:00 [INF] Received HTTP response headers after 30.922ms - 200
+2024-10-27 11:04:25.508 +00:00 [INF] End processing HTTP request after 35.5963ms - 200
+2024-10-27 11:04:25.532 +00:00 [INF] Received HTTP response headers after 25.2642ms - 200
+2024-10-27 11:04:25.532 +00:00 [INF] End processing HTTP request after 51.3359ms - 200
+2024-10-27 11:04:25.533 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 66.1845ms
+2024-10-27 11:04:25.533 +00:00 [INF] Received HTTP response headers after 68.4554ms - 200
+2024-10-27 11:04:25.534 +00:00 [INF] End processing HTTP request after 70.1247ms - 200
+2024-10-27 11:04:25.535 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:04:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:04:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:04:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:04:45.005 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:04:45.532 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:04:45.533 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:04:45.535 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:04:45.563 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:04:45.564 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:04:45.568 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:04:45.569 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:04:45.589 +00:00 [INF] Received HTTP response headers after 24.6985ms - 200
+2024-10-27 11:04:45.589 +00:00 [INF] End processing HTTP request after 26.3815ms - 200
+2024-10-27 11:04:45.594 +00:00 [INF] Received HTTP response headers after 24.5365ms - 200
+2024-10-27 11:04:45.594 +00:00 [INF] End processing HTTP request after 26.0579ms - 200
+2024-10-27 11:04:45.595 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 59.5017ms
+2024-10-27 11:04:45.595 +00:00 [INF] Received HTTP response headers after 61.8329ms - 200
+2024-10-27 11:04:45.596 +00:00 [INF] End processing HTTP request after 63.5258ms - 200
+2024-10-27 11:04:45.597 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:05:00.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:05:00.004 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:05:00.027 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:05:00.029 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:05:05.590 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:05:05.590 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:05:05.640 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:05:05.664 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:05:05.664 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:05:05.665 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:05:05.665 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:05:05.758 +00:00 [INF] Received HTTP response headers after 91.961ms - 200
+2024-10-27 11:05:05.759 +00:00 [INF] End processing HTTP request after 94.0337ms - 200
+2024-10-27 11:05:05.782 +00:00 [INF] Received HTTP response headers after 115.9057ms - 200
+2024-10-27 11:05:05.782 +00:00 [INF] End processing HTTP request after 118.0402ms - 200
+2024-10-27 11:05:05.783 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 142.941ms
+2024-10-27 11:05:05.783 +00:00 [INF] Received HTTP response headers after 192.5318ms - 200
+2024-10-27 11:05:05.784 +00:00 [INF] End processing HTTP request after 194.2215ms - 200
+2024-10-27 11:05:05.785 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:05:25.780 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:05:25.781 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:05:25.803 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:05:25.805 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:05:25.806 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:05:25.855 +00:00 [INF] Received HTTP response headers after 46.2828ms - 200
+2024-10-27 11:05:25.855 +00:00 [INF] End processing HTTP request after 49.839ms - 200
+2024-10-27 11:05:25.855 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:05:25.856 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:05:25.884 +00:00 [INF] Received HTTP response headers after 26.92ms - 200
+2024-10-27 11:05:25.884 +00:00 [INF] End processing HTTP request after 29.229ms - 200
+2024-10-27 11:05:25.885 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 82.3907ms
+2024-10-27 11:05:25.885 +00:00 [INF] Received HTTP response headers after 104.1693ms - 200
+2024-10-27 11:05:25.886 +00:00 [INF] End processing HTTP request after 105.9553ms - 200
+2024-10-27 11:05:25.888 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:05:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:05:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:05:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:05:45.009 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:05:45.896 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:05:45.896 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:05:45.919 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:05:45.950 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:05:45.951 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:05:45.996 +00:00 [INF] Received HTTP response headers after 42.3602ms - 200
+2024-10-27 11:05:45.993 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:05:45.998 +00:00 [INF] End processing HTTP request after 47.9146ms - 200
+2024-10-27 11:05:45.999 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:05:46.024 +00:00 [INF] Received HTTP response headers after 24.3195ms - 200
+2024-10-27 11:05:46.024 +00:00 [INF] End processing HTTP request after 30.5643ms - 200
+2024-10-27 11:05:46.025 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 105.7238ms
+2024-10-27 11:05:46.025 +00:00 [INF] Received HTTP response headers after 128.2762ms - 200
+2024-10-27 11:05:46.026 +00:00 [INF] End processing HTTP request after 129.6733ms - 200
+2024-10-27 11:05:46.027 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:06:00.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:06:00.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:06:00.005 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:06:00.009 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:06:06.019 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:06:06.020 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:06:06.022 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:06:06.024 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:06:06.024 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:06:06.032 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:06:06.033 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:06:06.060 +00:00 [INF] Received HTTP response headers after 26.7832ms - 200
+2024-10-27 11:06:06.061 +00:00 [INF] Received HTTP response headers after 35.8608ms - 200
+2024-10-27 11:06:06.061 +00:00 [INF] End processing HTTP request after 29.5154ms - 200
+2024-10-27 11:06:06.065 +00:00 [INF] End processing HTTP request after 41.2264ms - 200
+2024-10-27 11:06:06.067 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 45.2176ms
+2024-10-27 11:06:06.067 +00:00 [INF] Received HTTP response headers after 46.7299ms - 200
+2024-10-27 11:06:06.068 +00:00 [INF] End processing HTTP request after 48.3336ms - 200
+2024-10-27 11:06:06.069 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:06:26.090 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:06:26.091 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:06:26.092 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:06:26.096 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:06:26.098 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:06:26.105 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:06:26.105 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:06:26.108 +00:00 [INF] Received HTTP response headers after 8.7447ms - 200
+2024-10-27 11:06:26.110 +00:00 [INF] End processing HTTP request after 14.5014ms - 200
+2024-10-27 11:06:26.129 +00:00 [INF] Received HTTP response headers after 22.5721ms - 200
+2024-10-27 11:06:26.129 +00:00 [INF] End processing HTTP request after 24.4957ms - 200
+2024-10-27 11:06:26.130 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 37.9388ms
+2024-10-27 11:06:26.130 +00:00 [INF] Received HTTP response headers after 39.1792ms - 200
+2024-10-27 11:06:26.131 +00:00 [INF] End processing HTTP request after 40.9179ms - 200
+2024-10-27 11:06:26.133 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:06:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:06:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:06:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:06:45.005 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:06:46.129 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:06:46.130 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:06:46.133 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:06:46.160 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:06:46.161 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:06:46.182 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:06:46.185 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:06:46.192 +00:00 [INF] Received HTTP response headers after 31.156ms - 200
+2024-10-27 11:06:46.213 +00:00 [INF] Received HTTP response headers after 26.8635ms - 200
+2024-10-27 11:06:46.218 +00:00 [INF] End processing HTTP request after 57.4341ms - 200
+2024-10-27 11:06:46.218 +00:00 [INF] End processing HTTP request after 56.3278ms - 200
+2024-10-27 11:06:46.219 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 86.0144ms
+2024-10-27 11:06:46.219 +00:00 [INF] Received HTTP response headers after 88.5013ms - 200
+2024-10-27 11:06:46.220 +00:00 [INF] End processing HTTP request after 90.3006ms - 200
+2024-10-27 11:06:46.221 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:07:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:07:00.004 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:07:00.006 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:07:00.009 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:07:06.221 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:07:06.222 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:07:06.232 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:07:06.234 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:07:06.235 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:07:06.258 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:07:06.259 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:07:06.311 +00:00 [INF] Received HTTP response headers after 75.555ms - 200
+2024-10-27 11:07:06.316 +00:00 [INF] End processing HTTP request after 81.7441ms - 200
+2024-10-27 11:07:06.336 +00:00 [INF] Received HTTP response headers after 76.2354ms - 200
+2024-10-27 11:07:06.336 +00:00 [INF] End processing HTTP request after 78.1364ms - 200
+2024-10-27 11:07:06.337 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 104.9663ms
+2024-10-27 11:07:06.337 +00:00 [INF] Received HTTP response headers after 115.131ms - 200
+2024-10-27 11:07:06.338 +00:00 [INF] End processing HTTP request after 116.4837ms - 200
+2024-10-27 11:07:06.339 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:07:26.340 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:07:26.340 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:07:26.363 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:07:26.387 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:07:26.411 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:07:26.418 +00:00 [INF] Received HTTP response headers after 6.7862ms - 200
+2024-10-27 11:07:26.419 +00:00 [INF] End processing HTTP request after 52.8179ms - 200
+2024-10-27 11:07:26.424 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:07:26.425 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:07:26.451 +00:00 [INF] Received HTTP response headers after 25.4543ms - 200
+2024-10-27 11:07:26.451 +00:00 [INF] End processing HTTP request after 26.9232ms - 200
+2024-10-27 11:07:26.452 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 89.4432ms
+2024-10-27 11:07:26.452 +00:00 [INF] Received HTTP response headers after 111.152ms - 200
+2024-10-27 11:07:26.453 +00:00 [INF] End processing HTTP request after 112.6109ms - 200
+2024-10-27 11:07:26.454 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:07:30.022 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:07:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:07:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:07:45.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:07:46.448 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:07:46.449 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:07:46.472 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:07:46.475 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:07:46.476 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:07:46.503 +00:00 [INF] Received HTTP response headers after 24.8004ms - 200
+2024-10-27 11:07:46.525 +00:00 [INF] End processing HTTP request after 49.9704ms - 200
+2024-10-27 11:07:46.525 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:07:46.549 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:07:46.578 +00:00 [INF] Received HTTP response headers after 28.2242ms - 200
+2024-10-27 11:07:46.578 +00:00 [INF] End processing HTTP request after 53.2731ms - 200
+2024-10-27 11:07:46.579 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 107.5798ms
+2024-10-27 11:07:46.580 +00:00 [INF] Received HTTP response headers after 130.4172ms - 200
+2024-10-27 11:07:46.580 +00:00 [INF] End processing HTTP request after 132.0662ms - 200
+2024-10-27 11:07:46.582 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:08:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:08:00.005 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:08:00.006 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:08:00.013 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:08:06.580 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:08:06.580 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:08:06.603 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:08:06.626 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:08:06.627 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:08:06.673 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:08:06.673 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:08:06.673 +00:00 [INF] Received HTTP response headers after 45.8971ms - 200
+2024-10-27 11:08:06.677 +00:00 [INF] End processing HTTP request after 50.5938ms - 200
+2024-10-27 11:08:06.703 +00:00 [INF] Received HTTP response headers after 26.6047ms - 200
+2024-10-27 11:08:06.704 +00:00 [INF] End processing HTTP request after 31.1806ms - 200
+2024-10-27 11:08:06.707 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 103.8482ms
+2024-10-27 11:08:06.707 +00:00 [INF] Received HTTP response headers after 125.9255ms - 200
+2024-10-27 11:08:06.707 +00:00 [INF] End processing HTTP request after 127.495ms - 200
+2024-10-27 11:08:06.709 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:08:26.709 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:08:26.709 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:08:26.734 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:08:26.760 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:08:26.760 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:08:26.788 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:08:26.811 +00:00 [INF] Received HTTP response headers after 47.5346ms - 200
+2024-10-27 11:08:26.811 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:08:26.831 +00:00 [INF] End processing HTTP request after 73.8746ms - 200
+2024-10-27 11:08:26.842 +00:00 [INF] Received HTTP response headers after 7.436ms - 200
+2024-10-27 11:08:26.843 +00:00 [INF] End processing HTTP request after 54.33ms - 200
+2024-10-27 11:08:26.843 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 109.9535ms
+2024-10-27 11:08:26.844 +00:00 [INF] Received HTTP response headers after 133.8518ms - 200
+2024-10-27 11:08:26.844 +00:00 [INF] End processing HTTP request after 135.3801ms - 200
+2024-10-27 11:08:26.846 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:08:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:08:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:08:45.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:08:45.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:08:46.847 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:08:46.848 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:08:46.870 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:08:46.872 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:08:46.892 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:08:46.900 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:08:46.901 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:08:46.904 +00:00 [INF] Received HTTP response headers after 9.3815ms - 200
+2024-10-27 11:08:46.908 +00:00 [INF] End processing HTTP request after 36.1415ms - 200
+2024-10-27 11:08:46.912 +00:00 [INF] Received HTTP response headers after 7.7569ms - 200
+2024-10-27 11:08:46.912 +00:00 [INF] End processing HTTP request after 12.104ms - 200
+2024-10-27 11:08:46.915 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 45.9959ms
+2024-10-27 11:08:46.915 +00:00 [INF] Received HTTP response headers after 67.3138ms - 200
+2024-10-27 11:08:46.916 +00:00 [INF] End processing HTTP request after 68.9253ms - 200
+2024-10-27 11:08:46.917 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:09:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:09:00.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:09:00.006 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:09:00.008 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:09:06.926 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:09:06.927 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:09:07.020 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:09:07.023 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:09:07.023 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:09:07.044 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:09:07.047 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:09:07.103 +00:00 [INF] Received HTTP response headers after 58.748ms - 200
+2024-10-27 11:09:07.105 +00:00 [INF] End processing HTTP request after 82.7452ms - 200
+2024-10-27 11:09:07.119 +00:00 [INF] Received HTTP response headers after 71.1103ms - 200
+2024-10-27 11:09:07.119 +00:00 [INF] End processing HTTP request after 75.2796ms - 200
+2024-10-27 11:09:07.120 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 100.2535ms
+2024-10-27 11:09:07.120 +00:00 [INF] Received HTTP response headers after 193.0575ms - 200
+2024-10-27 11:09:07.121 +00:00 [INF] End processing HTTP request after 194.3757ms - 200
+2024-10-27 11:09:07.122 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:09:27.123 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:09:27.124 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:09:27.126 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:09:27.128 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:09:27.149 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:09:27.178 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:09:27.178 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:09:27.186 +00:00 [INF] Received HTTP response headers after 33.7712ms - 200
+2024-10-27 11:09:27.186 +00:00 [INF] Received HTTP response headers after 6.8972ms - 200
+2024-10-27 11:09:27.186 +00:00 [INF] End processing HTTP request after 57.9282ms - 200
+2024-10-27 11:09:27.187 +00:00 [INF] End processing HTTP request after 29.2345ms - 200
+2024-10-27 11:09:27.213 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 87.8332ms
+2024-10-27 11:09:27.213 +00:00 [INF] Received HTTP response headers after 88.8953ms - 200
+2024-10-27 11:09:27.214 +00:00 [INF] End processing HTTP request after 90.5854ms - 200
+2024-10-27 11:09:27.215 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:09:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:09:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:09:45.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:09:45.005 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:09:47.216 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:09:47.216 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:09:47.218 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:09:47.242 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:09:47.243 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:09:47.269 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:09:47.269 +00:00 [INF] Received HTTP response headers after 23.9907ms - 200
+2024-10-27 11:09:47.270 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:09:47.272 +00:00 [INF] End processing HTTP request after 32.0499ms - 200
+2024-10-27 11:09:47.278 +00:00 [INF] Received HTTP response headers after 5.779ms - 200
+2024-10-27 11:09:47.281 +00:00 [INF] End processing HTTP request after 11.5733ms - 200
+2024-10-27 11:09:47.283 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 65.0675ms
+2024-10-27 11:09:47.283 +00:00 [INF] Received HTTP response headers after 66.0148ms - 200
+2024-10-27 11:09:47.284 +00:00 [INF] End processing HTTP request after 67.731ms - 200
+2024-10-27 11:09:47.285 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:09:54.751 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/ - null null
+2024-10-27 11:09:54.798 +00:00 [INF] HTTP GET / responded 404 in 3.2607 ms
+2024-10-27 11:09:54.820 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+QueryString: 
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-User: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 404
+Duration: 3.9357
+2024-10-27 11:09:54.820 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/ - 404 0 null 69.5093ms
+2024-10-27 11:09:54.821 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/, Response status code: 404
+2024-10-27 11:10:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:10:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:10:00.005 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:10:00.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:10:07.281 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:10:07.281 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:10:07.282 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:10:07.289 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:10:07.291 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:10:07.293 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:10:07.295 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:10:07.298 +00:00 [INF] Received HTTP response headers after 6.8429ms - 200
+2024-10-27 11:10:07.299 +00:00 [INF] End processing HTTP request after 10.1863ms - 200
+2024-10-27 11:10:07.301 +00:00 [INF] Received HTTP response headers after 5.0405ms - 200
+2024-10-27 11:10:07.301 +00:00 [INF] End processing HTTP request after 8.451ms - 200
+2024-10-27 11:10:07.302 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 20.0817ms
+2024-10-27 11:10:07.303 +00:00 [INF] Received HTTP response headers after 21.1314ms - 200
+2024-10-27 11:10:07.303 +00:00 [INF] End processing HTTP request after 22.3024ms - 200
+2024-10-27 11:10:07.304 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:10:27.325 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:10:27.325 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:10:27.327 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:10:27.329 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:10:27.329 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:10:27.359 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:10:27.360 +00:00 [INF] Received HTTP response headers after 8.544ms - 200
+2024-10-27 11:10:27.361 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:10:27.363 +00:00 [INF] End processing HTTP request after 34.654ms - 200
+2024-10-27 11:10:27.391 +00:00 [INF] Received HTTP response headers after 27.3116ms - 200
+2024-10-27 11:10:27.392 +00:00 [INF] End processing HTTP request after 33.4689ms - 200
+2024-10-27 11:10:27.418 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 89.7401ms
+2024-10-27 11:10:27.418 +00:00 [INF] Received HTTP response headers after 92.6668ms - 200
+2024-10-27 11:10:27.419 +00:00 [INF] End processing HTTP request after 94.3313ms - 200
+2024-10-27 11:10:27.421 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:10:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:10:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:10:45.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:10:45.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:10:47.418 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:10:47.418 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:10:47.419 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:10:47.468 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:10:47.469 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:10:47.471 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:10:47.471 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:10:47.501 +00:00 [INF] Received HTTP response headers after 29.9733ms - 200
+2024-10-27 11:10:47.501 +00:00 [INF] Received HTTP response headers after 29.0787ms - 200
+2024-10-27 11:10:47.502 +00:00 [INF] End processing HTTP request after 34.3913ms - 200
+2024-10-27 11:10:47.503 +00:00 [INF] End processing HTTP request after 34.1507ms - 200
+2024-10-27 11:10:47.505 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 85.2824ms
+2024-10-27 11:10:47.505 +00:00 [INF] Received HTTP response headers after 86.356ms - 200
+2024-10-27 11:10:47.506 +00:00 [INF] End processing HTTP request after 87.8386ms - 200
+2024-10-27 11:10:47.507 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:11:00.022 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:11:00.022 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:11:00.024 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:11:00.026 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:11:07.510 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:11:07.511 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:11:07.520 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:11:07.545 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:11:07.543 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:11:07.548 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:11:07.548 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:11:07.577 +00:00 [INF] Received HTTP response headers after 28.3494ms - 200
+2024-10-27 11:11:07.578 +00:00 [INF] End processing HTTP request after 35.0814ms - 200
+2024-10-27 11:11:07.581 +00:00 [INF] Received HTTP response headers after 31.8401ms - 200
+2024-10-27 11:11:07.581 +00:00 [INF] End processing HTTP request after 38.8069ms - 200
+2024-10-27 11:11:07.582 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 62.2531ms
+2024-10-27 11:11:07.583 +00:00 [INF] Received HTTP response headers after 71.5444ms - 200
+2024-10-27 11:11:07.583 +00:00 [INF] End processing HTTP request after 72.8175ms - 200
+2024-10-27 11:11:07.584 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:11:27.580 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:11:27.581 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:11:27.582 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:11:27.614 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:11:27.614 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:11:27.615 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:11:27.615 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:11:27.644 +00:00 [INF] Received HTTP response headers after 28.9517ms - 200
+2024-10-27 11:11:27.647 +00:00 [INF] End processing HTTP request after 32.614ms - 200
+2024-10-27 11:11:27.647 +00:00 [INF] Received HTTP response headers after 10.9583ms - 200
+2024-10-27 11:11:27.650 +00:00 [INF] End processing HTTP request after 35.7851ms - 200
+2024-10-27 11:11:27.651 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 69.2954ms
+2024-10-27 11:11:27.652 +00:00 [INF] Received HTTP response headers after 70.6679ms - 200
+2024-10-27 11:11:27.652 +00:00 [INF] End processing HTTP request after 72.0078ms - 200
+2024-10-27 11:11:27.653 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:11:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:11:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:11:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:11:45.005 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:11:47.648 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:11:47.648 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:11:47.650 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:11:47.675 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:11:47.697 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:11:47.722 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:11:47.723 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:11:47.725 +00:00 [INF] Received HTTP response headers after 27.2296ms - 200
+2024-10-27 11:11:47.726 +00:00 [INF] End processing HTTP request after 73.0725ms - 200
+2024-10-27 11:11:47.756 +00:00 [INF] Received HTTP response headers after 30.1944ms - 200
+2024-10-27 11:11:47.756 +00:00 [INF] End processing HTTP request after 34.3296ms - 200
+2024-10-27 11:11:47.758 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 108.065ms
+2024-10-27 11:11:47.758 +00:00 [INF] Received HTTP response headers after 108.9305ms - 200
+2024-10-27 11:11:47.758 +00:00 [INF] End processing HTTP request after 110.3999ms - 200
+2024-10-27 11:11:47.760 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:12:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:12:00.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:12:00.006 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:12:00.008 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:12:07.765 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:12:07.765 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:12:07.767 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:12:07.769 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:12:07.770 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:12:07.771 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:12:07.772 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:12:07.779 +00:00 [INF] Received HTTP response headers after 9.2378ms - 200
+2024-10-27 11:12:07.780 +00:00 [INF] End processing HTTP request after 11.3083ms - 200
+2024-10-27 11:12:07.781 +00:00 [INF] Received HTTP response headers after 8.855ms - 200
+2024-10-27 11:12:07.782 +00:00 [INF] End processing HTTP request after 10.9268ms - 200
+2024-10-27 11:12:07.784 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 16.9545ms
+2024-10-27 11:12:07.784 +00:00 [INF] Received HTTP response headers after 18.0054ms - 200
+2024-10-27 11:12:07.785 +00:00 [INF] End processing HTTP request after 19.519ms - 200
+2024-10-27 11:12:07.786 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:12:27.779 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:12:27.780 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:12:27.784 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:12:27.807 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:12:27.807 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:12:27.813 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:12:27.814 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:12:27.820 +00:00 [INF] Received HTTP response headers after 9.8558ms - 200
+2024-10-27 11:12:27.822 +00:00 [INF] End processing HTTP request after 15.736ms - 200
+2024-10-27 11:12:27.822 +00:00 [INF] Received HTTP response headers after 7.1947ms - 200
+2024-10-27 11:12:27.823 +00:00 [INF] End processing HTTP request after 9.7373ms - 200
+2024-10-27 11:12:27.824 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 40.3357ms
+2024-10-27 11:12:27.824 +00:00 [INF] Received HTTP response headers after 41.8491ms - 200
+2024-10-27 11:12:27.825 +00:00 [INF] End processing HTTP request after 45.4277ms - 200
+2024-10-27 11:12:27.826 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:12:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:12:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:12:45.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:12:45.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:12:47.817 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:12:47.818 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:12:47.819 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:12:47.823 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:12:47.824 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:12:47.829 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:12:47.830 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:12:47.838 +00:00 [INF] Received HTTP response headers after 7.4885ms - 200
+2024-10-27 11:12:47.838 +00:00 [INF] Received HTTP response headers after 12.1176ms - 200
+2024-10-27 11:12:47.861 +00:00 [INF] End processing HTTP request after 31.7109ms - 200
+2024-10-27 11:12:47.861 +00:00 [INF] End processing HTTP request after 38.3072ms - 200
+2024-10-27 11:12:47.864 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 44.9808ms
+2024-10-27 11:12:47.864 +00:00 [INF] Received HTTP response headers after 46.0977ms - 200
+2024-10-27 11:12:47.865 +00:00 [INF] End processing HTTP request after 47.8211ms - 200
+2024-10-27 11:12:47.866 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:13:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:13:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:13:00.005 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:13:00.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:13:07.886 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:13:07.887 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:13:07.915 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:13:07.941 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:13:07.941 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:13:07.944 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:13:07.946 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:13:08.000 +00:00 [INF] Received HTTP response headers after 53.6524ms - 200
+2024-10-27 11:13:08.001 +00:00 [INF] Received HTTP response headers after 53.7711ms - 200
+2024-10-27 11:13:08.004 +00:00 [INF] End processing HTTP request after 62.3571ms - 200
+2024-10-27 11:13:08.007 +00:00 [INF] End processing HTTP request after 65.1762ms - 200
+2024-10-27 11:13:08.008 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 94.0157ms
+2024-10-27 11:13:08.009 +00:00 [INF] Received HTTP response headers after 121.344ms - 200
+2024-10-27 11:13:08.009 +00:00 [INF] End processing HTTP request after 123.0333ms - 200
+2024-10-27 11:13:08.010 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:13:28.014 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:13:28.014 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:13:28.019 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:13:28.022 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:13:28.043 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:13:28.055 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:13:28.077 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:13:28.078 +00:00 [INF] Received HTTP response headers after 34.0345ms - 200
+2024-10-27 11:13:28.100 +00:00 [INF] End processing HTTP request after 77.9214ms - 200
+2024-10-27 11:13:28.105 +00:00 [INF] Received HTTP response headers after 27.4715ms - 200
+2024-10-27 11:13:28.106 +00:00 [INF] End processing HTTP request after 51.0923ms - 200
+2024-10-27 11:13:28.106 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 87.6247ms
+2024-10-27 11:13:28.107 +00:00 [INF] Received HTTP response headers after 92.0783ms - 200
+2024-10-27 11:13:28.107 +00:00 [INF] End processing HTTP request after 93.6633ms - 200
+2024-10-27 11:13:28.108 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:13:30.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:13:45.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:13:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:13:45.005 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:13:48.114 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:13:48.114 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:13:48.116 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:13:48.120 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:13:48.122 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:13:48.124 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:13:48.124 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:13:48.177 +00:00 [INF] Received HTTP response headers after 51.811ms - 200
+2024-10-27 11:13:48.198 +00:00 [INF] End processing HTTP request after 80.1213ms - 200
+2024-10-27 11:13:48.198 +00:00 [INF] Received HTTP response headers after 53.3335ms - 200
+2024-10-27 11:13:48.200 +00:00 [INF] End processing HTTP request after 75.8608ms - 200
+2024-10-27 11:13:48.201 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 85.2148ms
+2024-10-27 11:13:48.201 +00:00 [INF] Received HTTP response headers after 86.5753ms - 200
+2024-10-27 11:13:48.202 +00:00 [INF] End processing HTTP request after 88.2417ms - 200
+2024-10-27 11:13:48.203 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:14:00.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:14:00.004 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:14:00.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:14:00.010 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:14:03.127 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/swagger/index.html - null null
+2024-10-27 11:14:03.165 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/swagger/index.html - 200 null text/html;charset=utf-8 38.2978ms
+2024-10-27 11:14:03.186 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/swagger/swagger-ui.css - null null
+2024-10-27 11:14:03.186 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/swagger/swagger-ui-bundle.js - null null
+2024-10-27 11:14:03.190 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/swagger/swagger-ui-standalone-preset.js - null null
+2024-10-27 11:14:03.219 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-27 11:14:03.224 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/swagger/swagger-ui.css - 200 144929 text/css 38.1114ms
+2024-10-27 11:14:03.233 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-27 11:14:03.233 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 43.516ms
+2024-10-27 11:14:03.279 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-27 11:14:03.279 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 93.2393ms
+2024-10-27 11:14:03.414 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/swagger/v1/swagger.json - null null
+2024-10-27 11:14:03.440 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/swagger/favicon-32x32.png - null null
+2024-10-27 11:14:03.441 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-10-27 11:14:03.441 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/swagger/favicon-32x32.png - 200 628 image/png 1.2063ms
+2024-10-27 11:14:03.541 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.6742ms
+2024-10-27 11:14:08.202 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:14:08.203 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:14:08.225 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:14:08.227 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:14:08.227 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:14:08.227 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:14:08.228 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:14:08.233 +00:00 [INF] Received HTTP response headers after 4.0346ms - 200
+2024-10-27 11:14:08.234 +00:00 [INF] End processing HTTP request after 6.6039ms - 200
+2024-10-27 11:14:08.242 +00:00 [INF] Received HTTP response headers after 13.5776ms - 200
+2024-10-27 11:14:08.245 +00:00 [INF] End processing HTTP request after 17.6716ms - 200
+2024-10-27 11:14:08.248 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 22.7389ms
+2024-10-27 11:14:08.248 +00:00 [INF] Received HTTP response headers after 44.4309ms - 200
+2024-10-27 11:14:08.248 +00:00 [INF] End processing HTTP request after 46.3604ms - 200
+2024-10-27 11:14:08.250 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:14:28.251 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:14:28.251 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:14:28.252 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:14:28.254 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:14:28.257 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:14:28.304 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:14:28.304 +00:00 [INF] Received HTTP response headers after 26.4295ms - 200
+2024-10-27 11:14:28.305 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:14:28.308 +00:00 [INF] End processing HTTP request after 53.4508ms - 200
+2024-10-27 11:14:28.317 +00:00 [INF] Received HTTP response headers after 8.363ms - 200
+2024-10-27 11:14:28.317 +00:00 [INF] End processing HTTP request after 34.0135ms - 200
+2024-10-27 11:14:28.318 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 65.84ms
+2024-10-27 11:14:28.318 +00:00 [INF] Received HTTP response headers after 66.6831ms - 200
+2024-10-27 11:14:28.319 +00:00 [INF] End processing HTTP request after 68.0913ms - 200
+2024-10-27 11:14:28.320 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:14:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:14:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:14:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:14:45.005 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:14:48.318 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:14:48.319 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:14:48.344 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:14:48.368 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:14:48.369 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:14:48.374 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:14:48.375 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:14:48.403 +00:00 [INF] Received HTTP response headers after 29.3257ms - 200
+2024-10-27 11:14:48.405 +00:00 [INF] End processing HTTP request after 36.7597ms - 200
+2024-10-27 11:14:48.407 +00:00 [INF] Received HTTP response headers after 28.9383ms - 200
+2024-10-27 11:14:48.408 +00:00 [INF] End processing HTTP request after 33.644ms - 200
+2024-10-27 11:14:48.412 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 69.8033ms
+2024-10-27 11:14:48.412 +00:00 [INF] Received HTTP response headers after 92.7585ms - 200
+2024-10-27 11:14:48.413 +00:00 [INF] End processing HTTP request after 94.3412ms - 200
+2024-10-27 11:14:48.414 +00:00 [INF] Saved 7 entities to in-memory store.
+2024-10-27 11:15:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:15:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:15:00.005 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:15:00.008 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:15:08.410 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:15:08.410 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:15:08.436 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:15:08.438 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:15:08.438 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:15:08.463 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:15:08.464 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:15:08.500 +00:00 [INF] Received HTTP response headers after 40.7058ms - 200
+2024-10-27 11:15:08.503 +00:00 [INF] End processing HTTP request after 65.1299ms - 200
+2024-10-27 11:15:08.523 +00:00 [INF] Received HTTP response headers after 59.4362ms - 200
+2024-10-27 11:15:08.524 +00:00 [INF] End processing HTTP request after 61.3591ms - 200
+2024-10-27 11:15:08.525 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 88.832ms
+2024-10-27 11:15:08.525 +00:00 [INF] Received HTTP response headers after 113.9265ms - 200
+2024-10-27 11:15:08.526 +00:00 [INF] End processing HTTP request after 115.9323ms - 200
+2024-10-27 11:15:08.527 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:15:28.532 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:15:28.532 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:15:28.534 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:15:28.562 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:15:28.562 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:15:28.588 +00:00 [INF] Received HTTP response headers after 24.6814ms - 200
+2024-10-27 11:15:28.590 +00:00 [INF] End processing HTTP request after 28.5668ms - 200
+2024-10-27 11:15:28.590 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:15:28.591 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:15:28.616 +00:00 [INF] Received HTTP response headers after 21.6874ms - 200
+2024-10-27 11:15:28.619 +00:00 [INF] End processing HTTP request after 28.63ms - 200
+2024-10-27 11:15:28.620 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 86.4289ms
+2024-10-27 11:15:28.621 +00:00 [INF] Received HTTP response headers after 87.3794ms - 200
+2024-10-27 11:15:28.621 +00:00 [INF] End processing HTTP request after 89.3126ms - 200
+2024-10-27 11:15:28.622 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:15:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:15:40.367 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/Apartments/add-apartment - application/json 119
+2024-10-27 11:15:40.395 +00:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Manager)
+2024-10-27 11:15:40.399 +00:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-27 11:15:40.399 +00:00 [INF] HTTP POST /api/Apartments/add-apartment responded 401 in 8.9925 ms
+2024-10-27 11:15:40.400 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Apartments/add-apartment
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 119
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+RequestBody: 
+RequestBodyStatus: [Not consumed by app]
+Duration: 10.8787
+2024-10-27 11:15:40.401 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/Apartments/add-apartment - 401 0 null 33.8328ms
+2024-10-27 11:15:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:15:45.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:15:45.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:15:48.620 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:15:48.620 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:15:48.623 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:15:48.625 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:15:48.626 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:15:48.658 +00:00 [INF] Received HTTP response headers after 29.3368ms - 200
+2024-10-27 11:15:48.678 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:15:48.681 +00:00 [INF] End processing HTTP request after 55.7649ms - 200
+2024-10-27 11:15:48.681 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:15:48.709 +00:00 [INF] Received HTTP response headers after 25.349ms - 200
+2024-10-27 11:15:48.709 +00:00 [INF] End processing HTTP request after 31.0333ms - 200
+2024-10-27 11:15:48.710 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 86.8956ms
+2024-10-27 11:15:48.710 +00:00 [INF] Received HTTP response headers after 89.4831ms - 200
+2024-10-27 11:15:48.711 +00:00 [INF] End processing HTTP request after 91.1579ms - 200
+2024-10-27 11:15:48.712 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:16:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:16:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:16:00.006 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:16:00.008 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:16:08.710 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:16:08.711 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:16:08.712 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:16:08.714 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:16:08.715 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:16:08.740 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:16:08.741 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:16:08.741 +00:00 [INF] Received HTTP response headers after 25.5731ms - 200
+2024-10-27 11:16:08.744 +00:00 [INF] End processing HTTP request after 29.9381ms - 200
+2024-10-27 11:16:08.789 +00:00 [INF] Received HTTP response headers after 26.2443ms - 200
+2024-10-27 11:16:08.794 +00:00 [INF] End processing HTTP request after 53.6103ms - 200
+2024-10-27 11:16:08.796 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 84.4312ms
+2024-10-27 11:16:08.797 +00:00 [INF] Received HTTP response headers after 85.3934ms - 200
+2024-10-27 11:16:08.797 +00:00 [INF] End processing HTTP request after 87.1569ms - 200
+2024-10-27 11:16:08.799 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:16:28.802 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:16:28.802 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:16:28.804 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:16:28.829 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:16:28.832 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:16:28.860 +00:00 [INF] Received HTTP response headers after 26.2696ms - 200
+2024-10-27 11:16:28.860 +00:00 [INF] End processing HTTP request after 31.0762ms - 200
+2024-10-27 11:16:28.861 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:16:28.862 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:16:28.869 +00:00 [INF] Received HTTP response headers after 6.5841ms - 200
+2024-10-27 11:16:28.870 +00:00 [INF] End processing HTTP request after 9.3833ms - 200
+2024-10-27 11:16:28.874 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 67.8868ms
+2024-10-27 11:16:28.877 +00:00 [INF] Received HTTP response headers after 74.1327ms - 200
+2024-10-27 11:16:28.881 +00:00 [INF] End processing HTTP request after 79.0922ms - 200
+2024-10-27 11:16:28.885 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:16:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:16:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:16:45.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:16:45.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:16:48.879 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:16:48.880 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:16:48.881 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:16:48.929 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:16:48.932 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:16:48.933 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:16:48.934 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:16:48.962 +00:00 [INF] Received HTTP response headers after 29.6762ms - 200
+2024-10-27 11:16:48.965 +00:00 [INF] Received HTTP response headers after 29.5511ms - 200
+2024-10-27 11:16:48.965 +00:00 [INF] End processing HTTP request after 35.6452ms - 200
+2024-10-27 11:16:48.965 +00:00 [INF] End processing HTTP request after 31.8795ms - 200
+2024-10-27 11:16:48.993 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 110.0503ms
+2024-10-27 11:16:48.993 +00:00 [INF] Received HTTP response headers after 113.0605ms - 200
+2024-10-27 11:16:48.996 +00:00 [INF] End processing HTTP request after 116.5701ms - 200
+2024-10-27 11:16:48.997 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:16:55.740 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/Users/register - application/json 159
+2024-10-27 11:16:55.744 +00:00 [INF] Executing endpoint 'Bookify.Controllers.UsersController.Register (Bookify)'
+2024-10-27 11:16:55.762 +00:00 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid]] Register(Bookify.Models.Requests.RegisterUserRequest) on controller Bookify.Controllers.UsersController (Bookify).
+2024-10-27 11:16:55.812 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-10-27 11:16:55.900 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-27 11:16:55.992 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2024-10-27 11:16:56.014 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-10-27 11:16:56.041 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2024-10-27 11:16:56.047 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-10-27 11:16:56.080 +00:00 [INF] Executed DbCommand (22ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-10-27 11:16:56.133 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p16='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p17='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-10-27 11:16:56.171 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 400), @p2='?' (Size = 200), @p3='?' (Size = 450), @p4='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [users] ([Id], [Email], [FirstName], [IdentityId], [LastName])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-10-27 11:16:56.181 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Guid'.
+2024-10-27 11:16:56.190 +00:00 [INF] Executed action Bookify.Controllers.UsersController.Register (Bookify) in 424.6152ms
+2024-10-27 11:16:56.191 +00:00 [INF] Executed endpoint 'Bookify.Controllers.UsersController.Register (Bookify)'
+2024-10-27 11:16:56.193 +00:00 [INF] HTTP POST /api/Users/register responded 200 in 450.0163 ms
+2024-10-27 11:16:56.195 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Users/register
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 159
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+RequestBody: {
+  "firstName": "Albus",
+  "lastName": "Dumbledore",
+  "email": "principal@example.com",
+  "password": "1234512345Aa$",
+  "confirmPassword": "1234512345Aa$"
+}
+RequestBodyStatus: [Completed]
+ResponseBody: "a946265b-3688-41bf-9e39-155a85964807"
+Duration: 452.2098
+2024-10-27 11:16:56.199 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/Users/register - 200 null application/json; charset=utf-8 459.6957ms
+2024-10-27 11:17:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:17:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:17:00.006 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:17:00.008 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:17:09.003 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:17:09.004 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:17:09.030 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:17:09.033 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:17:09.054 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:17:09.054 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:17:09.054 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:17:09.115 +00:00 [INF] Received HTTP response headers after 37.6408ms - 200
+2024-10-27 11:17:09.115 +00:00 [INF] End processing HTTP request after 61.6092ms - 200
+2024-10-27 11:17:09.130 +00:00 [INF] Received HTTP response headers after 73.1357ms - 200
+2024-10-27 11:17:09.130 +00:00 [INF] End processing HTTP request after 97.6424ms - 200
+2024-10-27 11:17:09.131 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 101.1486ms
+2024-10-27 11:17:09.131 +00:00 [INF] Received HTTP response headers after 126.8763ms - 200
+2024-10-27 11:17:09.132 +00:00 [INF] End processing HTTP request after 128.7629ms - 200
+2024-10-27 11:17:09.133 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:17:29.127 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:17:29.127 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:17:29.128 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:17:29.131 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:17:29.155 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:17:29.179 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:17:29.180 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:17:29.204 +00:00 [INF] Received HTTP response headers after 27.4151ms - 200
+2024-10-27 11:17:29.207 +00:00 [INF] End processing HTTP request after 76.1458ms - 200
+2024-10-27 11:17:29.207 +00:00 [INF] Received HTTP response headers after 26.913ms - 200
+2024-10-27 11:17:29.252 +00:00 [INF] End processing HTTP request after 72.3314ms - 200
+2024-10-27 11:17:29.256 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 127.5026ms
+2024-10-27 11:17:29.256 +00:00 [INF] Received HTTP response headers after 128.5301ms - 200
+2024-10-27 11:17:29.257 +00:00 [INF] End processing HTTP request after 130.3921ms - 200
+2024-10-27 11:17:29.259 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:17:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:17:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:17:45.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:17:45.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:17:49.274 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:17:49.274 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:17:49.277 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:17:49.306 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:17:49.306 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:17:49.310 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:17:49.311 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:17:49.363 +00:00 [INF] Received HTTP response headers after 53.5975ms - 200
+2024-10-27 11:17:49.364 +00:00 [INF] End processing HTTP request after 58.3114ms - 200
+2024-10-27 11:17:49.367 +00:00 [INF] Received HTTP response headers after 34.4912ms - 200
+2024-10-27 11:17:49.391 +00:00 [INF] End processing HTTP request after 81.2693ms - 200
+2024-10-27 11:17:49.394 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 117.1523ms
+2024-10-27 11:17:49.394 +00:00 [INF] Received HTTP response headers after 119.2745ms - 200
+2024-10-27 11:17:49.395 +00:00 [INF] End processing HTTP request after 121.1847ms - 200
+2024-10-27 11:17:49.396 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:18:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:18:00.003 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:18:00.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:18:00.010 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:18:09.403 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:18:09.403 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:18:09.404 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:18:09.426 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:18:09.427 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:18:09.457 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:18:09.478 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:18:09.478 +00:00 [INF] Received HTTP response headers after 50.486ms - 200
+2024-10-27 11:18:09.482 +00:00 [INF] End processing HTTP request after 75.6714ms - 200
+2024-10-27 11:18:09.486 +00:00 [INF] Received HTTP response headers after 5.0976ms - 200
+2024-10-27 11:18:09.487 +00:00 [INF] End processing HTTP request after 30.1293ms - 200
+2024-10-27 11:18:09.488 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 84.1139ms
+2024-10-27 11:18:09.489 +00:00 [INF] Received HTTP response headers after 85.2167ms - 200
+2024-10-27 11:18:09.489 +00:00 [INF] End processing HTTP request after 86.6818ms - 200
+2024-10-27 11:18:09.491 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:18:29.492 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:18:29.492 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:18:29.493 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:18:29.496 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:18:29.499 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:18:29.528 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:18:29.531 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:18:29.529 +00:00 [INF] Received HTTP response headers after 29.1419ms - 200
+2024-10-27 11:18:29.534 +00:00 [INF] End processing HTTP request after 38.358ms - 200
+2024-10-27 11:18:29.556 +00:00 [INF] Received HTTP response headers after 24.7975ms - 200
+2024-10-27 11:18:29.557 +00:00 [INF] End processing HTTP request after 28.7648ms - 200
+2024-10-27 11:18:29.558 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 64.1604ms
+2024-10-27 11:18:29.558 +00:00 [INF] Received HTTP response headers after 64.9766ms - 200
+2024-10-27 11:18:29.558 +00:00 [INF] End processing HTTP request after 66.6356ms - 200
+2024-10-27 11:18:29.560 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:18:30.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:18:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:18:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:18:45.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:18:49.565 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:18:49.565 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:18:49.567 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:18:49.569 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:18:49.569 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:18:49.574 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:18:49.594 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:18:49.594 +00:00 [INF] Received HTTP response headers after 24.5211ms - 200
+2024-10-27 11:18:49.600 +00:00 [INF] End processing HTTP request after 31.9488ms - 200
+2024-10-27 11:18:49.606 +00:00 [INF] Received HTTP response headers after 6.138ms - 200
+2024-10-27 11:18:49.610 +00:00 [INF] End processing HTTP request after 35.8026ms - 200
+2024-10-27 11:18:49.611 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 44.3151ms
+2024-10-27 11:18:49.611 +00:00 [INF] Received HTTP response headers after 44.9311ms - 200
+2024-10-27 11:18:49.611 +00:00 [INF] End processing HTTP request after 46.7745ms - 200
+2024-10-27 11:18:49.613 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:19:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:19:00.004 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:19:00.007 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:19:00.009 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:19:04.659 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/Users/login - application/json 69
+2024-10-27 11:19:04.667 +00:00 [INF] Executing endpoint 'Bookify.Controllers.UsersController.LogIn (Bookify)'
+2024-10-27 11:19:04.674 +00:00 [INF] Route matched with {action = "LogIn", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] LogIn(Bookify.Models.Requests.LoginRequest) on controller Bookify.Controllers.UsersController (Bookify).
+2024-10-27 11:19:04.730 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-10-27 11:19:04.818 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-10-27 11:19:04.860 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-27 11:19:04.862 +00:00 [INF] Executed action Bookify.Controllers.UsersController.LogIn (Bookify) in 187.8881ms
+2024-10-27 11:19:04.863 +00:00 [INF] Executed endpoint 'Bookify.Controllers.UsersController.LogIn (Bookify)'
+2024-10-27 11:19:04.864 +00:00 [INF] HTTP POST /api/Users/login responded 200 in 196.7596 ms
+2024-10-27 11:19:04.864 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Users/login
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 69
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+RequestBody: {
+  "email": "principal@example.com",
+  "password": "1234512345Aa$"
+}
+RequestBodyStatus: [Completed]
+ResponseBody: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImY0NzNjMzViLTk0NzAtNGI5My04N2JjLTg1OWFmMjA5ZjIzZCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6InByaW5jaXBhbEBleGFtcGxlLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1hbmFnZXIiLCJleHAiOjE3MzAxMTQzNDQsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjgwODAiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo4MDgwIn0.WdqFi4aguYbddN_7pFFe5i5WRgTehk1WGv2HJsFMPww
+Duration: 197.4615
+2024-10-27 11:19:04.865 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/Users/login - 200 null text/plain; charset=utf-8 205.8803ms
+2024-10-27 11:19:09.613 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:19:09.613 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:19:09.618 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:19:09.619 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:19:09.620 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:19:09.648 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:19:09.649 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:19:09.660 +00:00 [INF] Received HTTP response headers after 39.5248ms - 200
+2024-10-27 11:19:09.662 +00:00 [INF] End processing HTTP request after 43.1619ms - 200
+2024-10-27 11:19:09.711 +00:00 [INF] Received HTTP response headers after 62.1425ms - 200
+2024-10-27 11:19:09.712 +00:00 [INF] End processing HTTP request after 64.3079ms - 200
+2024-10-27 11:19:09.713 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 95.2942ms
+2024-10-27 11:19:09.713 +00:00 [INF] Received HTTP response headers after 99.1775ms - 200
+2024-10-27 11:19:09.714 +00:00 [INF] End processing HTTP request after 100.7301ms - 200
+2024-10-27 11:19:09.715 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:19:29.717 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:19:29.717 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:19:29.719 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:19:29.745 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:19:29.746 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:19:29.773 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:19:29.774 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:19:29.775 +00:00 [INF] Received HTTP response headers after 7.4812ms - 200
+2024-10-27 11:19:29.779 +00:00 [INF] End processing HTTP request after 33.4515ms - 200
+2024-10-27 11:19:29.782 +00:00 [INF] Received HTTP response headers after 8.1166ms - 200
+2024-10-27 11:19:29.803 +00:00 [INF] End processing HTTP request after 30.1027ms - 200
+2024-10-27 11:19:29.810 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 89.5492ms
+2024-10-27 11:19:29.812 +00:00 [INF] Received HTTP response headers after 92.5716ms - 200
+2024-10-27 11:19:29.813 +00:00 [INF] End processing HTTP request after 96.0447ms - 200
+2024-10-27 11:19:29.814 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:19:30.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:19:45.001 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:19:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:19:45.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:19:49.218 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/Apartments/add-apartment - application/json 119
+2024-10-27 11:19:49.254 +00:00 [INF] Executing endpoint 'Bookify.Controllers.ApartmentsController.AddApartment (Bookify)'
+2024-10-27 11:19:49.256 +00:00 [INF] Route matched with {action = "AddApartment", controller = "Apartments"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] AddApartment(Bookify.Models.Requests.AddApartmentRequest) on controller Bookify.Controllers.ApartmentsController (Bookify).
+2024-10-27 11:19:49.272 +00:00 [INF] Executing UnprocessableEntityObjectResult, writing value of type 'Bookify.Domain.ErrorResult'.
+2024-10-27 11:19:49.276 +00:00 [INF] Executed action Bookify.Controllers.ApartmentsController.AddApartment (Bookify) in 19.4118ms
+2024-10-27 11:19:49.276 +00:00 [INF] Executed endpoint 'Bookify.Controllers.ApartmentsController.AddApartment (Bookify)'
+2024-10-27 11:19:49.277 +00:00 [INF] HTTP POST /api/Apartments/add-apartment responded 422 in 56.9779 ms
+2024-10-27 11:19:49.277 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Apartments/add-apartment
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImY0NzNjMzViLTk0NzAtNGI5My04N2JjLTg1OWFmMjA5ZjIzZCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6InByaW5jaXBhbEBleGFtcGxlLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1hbmFnZXIiLCJleHAiOjE3MzAxMTQzNDQsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjgwODAiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo4MDgwIn0.WdqFi4aguYbddN_7pFFe5i5WRgTehk1WGv2HJsFMPww
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 119
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 422
+Content-Type: application/json; charset=utf-8
+RequestBody: {
+  "name": "Hogwarts Cottage",
+  "address": "England Some str, build 8",
+  "price": 3000,
+  "amenities": [
+    4
+  ]
+}
+RequestBodyStatus: [Completed]
+ResponseBody: {"errorCode":-108,"errorMessages":["Стоимость апартаментов должна находиться в диапазоне от 50 до 1000"]}
+Duration: 57.5145
+2024-10-27 11:19:49.278 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/Apartments/add-apartment - 422 null application/json; charset=utf-8 59.3037ms
+2024-10-27 11:19:49.810 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:19:49.812 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:19:49.815 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:19:49.817 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:19:49.818 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:19:49.847 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:19:49.847 +00:00 [INF] Received HTTP response headers after 28.2697ms - 200
+2024-10-27 11:19:49.850 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:19:49.850 +00:00 [INF] End processing HTTP request after 33.2871ms - 200
+2024-10-27 11:19:49.857 +00:00 [INF] Received HTTP response headers after 6.52ms - 200
+2024-10-27 11:19:49.858 +00:00 [INF] End processing HTTP request after 11.4527ms - 200
+2024-10-27 11:19:49.859 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 44.0696ms
+2024-10-27 11:19:49.859 +00:00 [INF] Received HTTP response headers after 46.4085ms - 200
+2024-10-27 11:19:49.860 +00:00 [INF] End processing HTTP request after 49.4703ms - 200
+2024-10-27 11:19:49.861 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 11:19:57.245 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/Apartments/add-apartment - application/json 118
+2024-10-27 11:19:57.248 +00:00 [INF] Executing endpoint 'Bookify.Controllers.ApartmentsController.AddApartment (Bookify)'
+2024-10-27 11:19:57.249 +00:00 [INF] Route matched with {action = "AddApartment", controller = "Apartments"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] AddApartment(Bookify.Models.Requests.AddApartmentRequest) on controller Bookify.Controllers.ApartmentsController (Bookify).
+2024-10-27 11:19:57.259 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[@__address_0='?' (Size = 500)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [apartments] AS [a]
+        WHERE [a].[Address] = @__address_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-10-27 11:19:57.550 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 500), @p2='?' (Size = 4000), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (Size = 2000), @p5='?' (DbType = DateTime2), @p6='?' (Size = 200), @p7='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p8='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [apartments] ([Id], [Address], [Amenities], [CleaningFee], [Description], [LastBookedOnUtc], [Name], [Price], [Version])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2024-10-27 11:19:57.552 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Guid'.
+2024-10-27 11:19:57.553 +00:00 [INF] Executed action Bookify.Controllers.ApartmentsController.AddApartment (Bookify) in 303.4335ms
+2024-10-27 11:19:57.554 +00:00 [INF] Executed endpoint 'Bookify.Controllers.ApartmentsController.AddApartment (Bookify)'
+2024-10-27 11:19:57.554 +00:00 [INF] HTTP POST /api/Apartments/add-apartment responded 200 in 308.6275 ms
+2024-10-27 11:19:57.555 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Apartments/add-apartment
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImY0NzNjMzViLTk0NzAtNGI5My04N2JjLTg1OWFmMjA5ZjIzZCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6InByaW5jaXBhbEBleGFtcGxlLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik1hbmFnZXIiLCJleHAiOjE3MzAxMTQzNDQsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjgwODAiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo4MDgwIn0.WdqFi4aguYbddN_7pFFe5i5WRgTehk1WGv2HJsFMPww
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 118
+sec-ch-ua-platform: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+RequestBody: {
+  "name": "Hogwarts Cottage",
+  "address": "England Some str, build 8",
+  "price": 300,
+  "amenities": [
+    4
+  ]
+}
+RequestBodyStatus: [Completed]
+ResponseBody: "cd9a298b-5725-433f-b664-ddc5bce7cdb9"
+Duration: 309.2471
+2024-10-27 11:19:57.555 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/Apartments/add-apartment - 200 null application/json; charset=utf-8 310.5321ms
+2024-10-27 11:20:00.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 11:20:00.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 11:20:00.006 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 11:20:00.008 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 11:20:09.858 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 11:20:09.858 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 11:20:09.859 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 11:20:09.863 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:20:09.863 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 11:20:09.888 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:20:09.890 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 11:20:09.894 +00:00 [INF] Received HTTP response headers after 7.1138ms - 200
+2024-10-27 11:20:09.895 +00:00 [INF] End processing HTTP request after 32.0444ms - 200
+2024-10-27 11:20:09.898 +00:00 [INF] Received HTTP response headers after 6.524ms - 200
+2024-10-27 11:20:09.898 +00:00 [INF] End processing HTTP request after 10.929ms - 200
+2024-10-27 11:20:09.922 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 62.9212ms
+2024-10-27 11:20:09.925 +00:00 [INF] Received HTTP response headers after 65.7743ms - 200
+2024-10-27 11:20:09.925 +00:00 [INF] End processing HTTP request after 67.4866ms - 200
+2024-10-27 11:20:09.927 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 12:23:44.889 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-10-27 12:23:44.957 +00:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-10-27 12:23:44.960 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-10-27 12:23:44.962 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-10-27 12:23:44.991 +00:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-10-27 12:23:45.007 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-10-27 12:23:45.123 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-10-27 12:23:45.133 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-27 12:23:45.134 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-27 12:23:45.135 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-27 12:23:45.135 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-27 12:23:45.135 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-27 12:23:45.136 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-27 12:23:45.484 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-10-27 12:23:45.486 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-10-27 12:23:45.487 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-10-27 12:23:45.488 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-10-27 12:23:45.501 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-10-27 12:23:45.502 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-10-27 12:23:45.704 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-10-27 12:23:45.840 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-10-27 12:23:45.841 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-10-27 12:23:45.847 +00:00 [INF] Initializing UI Database
+2024-10-27 12:23:45.958 +00:00 [INF] Saving healthchecks configuration to database
+2024-10-27 12:23:46.026 +00:00 [INF] Saved 1 entities to in-memory store.
+2024-10-27 12:23:46.036 +00:00 [INF] Creating key {cc7c0599-cdcc-4e40-8bb2-096ff7bc2418} with creation date 2024-10-27 12:23:46Z, activation date 2024-10-27 12:23:46Z, and expiration date 2025-01-25 12:23:46Z.
+2024-10-27 12:23:46.042 +00:00 [WRN] No XML encryptor configured. Key {cc7c0599-cdcc-4e40-8bb2-096ff7bc2418} may be persisted to storage in unencrypted form.
+2024-10-27 12:23:46.065 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-27 12:23:46.088 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-27 12:23:46.089 +00:00 [INF] Quartz Scheduler created
+2024-10-27 12:23:46.090 +00:00 [INF] RAMJobStore initialized.
+2024-10-27 12:23:46.091 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-27 12:23:46.091 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-27 12:23:46.092 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-27 12:23:46.093 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-10-27 12:23:46.119 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-10-27 12:23:46.170 +00:00 [INF] Now listening on: http://[::]:80
+2024-10-27 12:23:46.319 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 12:23:46.322 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 12:23:46.352 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-27 12:23:46.352 +00:00 [INF] Hosting environment: Development
+2024-10-27 12:23:46.353 +00:00 [INF] Content root path: /app
+2024-10-27 12:23:46.384 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 12:23:46.484 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 12:23:46.484 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 12:23:46.485 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 12:23:46.486 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 12:23:46.632 +00:00 [INF] Received HTTP response headers after 142.5136ms - 200
+2024-10-27 12:23:46.632 +00:00 [INF] Received HTTP response headers after 142.2416ms - 200
+2024-10-27 12:23:46.635 +00:00 [INF] End processing HTTP request after 150.5354ms - 200
+2024-10-27 12:23:46.635 +00:00 [INF] End processing HTTP request after 150.5194ms - 200
+2024-10-27 12:23:46.722 +00:00 [INF] Received HTTP response headers after 399.1691ms - 200
+2024-10-27 12:23:46.722 +00:00 [INF] End processing HTTP request after 404.873ms - 200
+2024-10-27 12:23:46.723 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 339.9525ms
+2024-10-27 12:23:46.846 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 12:24:00.055 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 12:24:00.056 +00:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 12:24:00.073 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 12:24:00.130 +00:00 [INF] Executed DbCommand (19ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 12:24:06.866 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 12:24:06.867 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 12:24:06.870 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 12:24:06.873 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 12:24:06.896 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 12:24:06.918 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 12:24:06.919 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 12:24:06.988 +00:00 [INF] Received HTTP response headers after 27.1756ms - 200
+2024-10-27 12:24:06.988 +00:00 [INF] Received HTTP response headers after 70.1435ms - 200
+2024-10-27 12:24:07.012 +00:00 [INF] End processing HTTP request after 93.8706ms - 200
+2024-10-27 12:24:07.012 +00:00 [INF] End processing HTTP request after 139.7008ms - 200
+2024-10-27 12:24:07.080 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 209.729ms
+2024-10-27 12:24:07.080 +00:00 [INF] Received HTTP response headers after 212.6841ms - 200
+2024-10-27 12:24:07.081 +00:00 [INF] End processing HTTP request after 214.628ms - 200
+2024-10-27 12:24:07.095 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 12:24:27.098 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 12:24:27.099 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 12:24:27.122 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 12:24:27.167 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 12:24:27.188 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 12:24:27.243 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 12:24:27.266 +00:00 [INF] Received HTTP response headers after 49.7669ms - 200
+2024-10-27 12:24:27.287 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 12:24:27.290 +00:00 [INF] End processing HTTP request after 122.9818ms - 200
+2024-10-27 12:24:27.317 +00:00 [INF] Received HTTP response headers after 26.2088ms - 200
+2024-10-27 12:24:27.317 +00:00 [INF] End processing HTTP request after 74.4481ms - 200
+2024-10-27 12:24:27.318 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 196.7584ms
+2024-10-27 12:24:27.319 +00:00 [INF] Received HTTP response headers after 218.8401ms - 200
+2024-10-27 12:24:27.319 +00:00 [INF] End processing HTTP request after 221.0457ms - 200
+2024-10-27 12:24:27.321 +00:00 [INF] Saved 8 entities to in-memory store.
+2024-10-27 12:24:30.006 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-10-27 12:24:45.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-10-27 12:24:45.003 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-10-27 12:24:45.011 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-10-27 12:24:47.329 +00:00 [INF] Start processing HTTP request GET http://localhost/health
+2024-10-27 12:24:47.329 +00:00 [INF] Sending HTTP request GET http://localhost/health
+2024-10-27 12:24:47.331 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2024-10-27 12:24:47.333 +00:00 [INF] Start processing HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 12:24:47.338 +00:00 [INF] Sending HTTP request GET http://smsservice-api:8080/api/Sms
+2024-10-27 12:24:47.342 +00:00 [INF] Start processing HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 12:24:47.342 +00:00 [INF] Sending HTTP request GET http://mailservice-api:8080/api/Mail
+2024-10-27 12:24:47.367 +00:00 [INF] Received HTTP response headers after 27.5118ms - 200
+2024-10-27 12:24:47.368 +00:00 [INF] End processing HTTP request after 34.5089ms - 200
+2024-10-27 12:24:47.392 +00:00 [INF] Received HTTP response headers after 28.4014ms - 200
+2024-10-27 12:24:47.414 +00:00 [INF] End processing HTTP request after 72.4161ms - 200
+2024-10-27 12:24:47.419 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 87.5631ms
+2024-10-27 12:24:47.419 +00:00 [INF] Received HTTP response headers after 89.0546ms - 200
+2024-10-27 12:24:47.419 +00:00 [INF] End processing HTTP request after 90.4454ms - 200
+2024-10-27 12:24:47.421 +00:00 [INF] Saved 8 entities to in-memory store.

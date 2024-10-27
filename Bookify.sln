@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify", "Bookify\Bookify.csproj", "{0009CCB9-8B73-42FD-B2A2-738682BAD2AD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EE04751C-C6C2-4768-952C-95CAD1070EEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Identity", "Bookify.Identity\Bookify.Identity.csproj", "{E206EB7C-0621-4C99-89B0-D819F33C4CB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Domain", "Bookify.Domain\Bookify.Domain.csproj", "{EF41DE5C-82A8-45A4-AE58-C20F7704382F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailService.Api", "MailService.Api\MailService.Api.csproj", "{FF8E5467-F484-4B11-AE20-A6E10E8378B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsService.Api", "SmsService.Api\SmsService.Api.csproj", "{3272DA1F-DDEA-4403-9FBB-1E45A1075086}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0009CCB9-8B73-42FD-B2A2-738682BAD2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0009CCB9-8B73-42FD-B2A2-738682BAD2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0009CCB9-8B73-42FD-B2A2-738682BAD2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0009CCB9-8B73-42FD-B2A2-738682BAD2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE04751C-C6C2-4768-952C-95CAD1070EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE04751C-C6C2-4768-952C-95CAD1070EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE04751C-C6C2-4768-952C-95CAD1070EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE04751C-C6C2-4768-952C-95CAD1070EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E206EB7C-0621-4C99-89B0-D819F33C4CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E206EB7C-0621-4C99-89B0-D819F33C4CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E206EB7C-0621-4C99-89B0-D819F33C4CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E206EB7C-0621-4C99-89B0-D819F33C4CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF41DE5C-82A8-45A4-AE58-C20F7704382F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF41DE5C-82A8-45A4-AE58-C20F7704382F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF41DE5C-82A8-45A4-AE58-C20F7704382F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF41DE5C-82A8-45A4-AE58-C20F7704382F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF8E5467-F484-4B11-AE20-A6E10E8378B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8E5467-F484-4B11-AE20-A6E10E8378B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8E5467-F484-4B11-AE20-A6E10E8378B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8E5467-F484-4B11-AE20-A6E10E8378B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3272DA1F-DDEA-4403-9FBB-1E45A1075086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3272DA1F-DDEA-4403-9FBB-1E45A1075086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3272DA1F-DDEA-4403-9FBB-1E45A1075086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3272DA1F-DDEA-4403-9FBB-1E45A1075086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FC3BEE3-AF0F-4155-AA17-B4A4EF8BB6EE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,941 @@
+2024-05-26 07:55:28.155 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 07:55:28.225 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 07:55:28.227 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 07:55:28.229 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 07:55:28.248 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 07:55:28.262 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 07:55:28.365 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-05-26 07:55:28.375 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 07:55:28.375 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 07:55:28.376 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 07:55:28.376 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 07:55:28.377 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 07:55:28.377 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 07:55:28.731 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 07:55:28.734 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 07:55:28.735 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 07:55:28.736 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 07:55:28.746 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 07:55:28.747 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 07:55:28.966 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-05-26 07:55:29.060 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-05-26 07:55:29.061 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-05-26 07:55:29.073 +00:00 [INF] Creating key {56f80165-cad7-44da-a662-22e91a867c64} with creation date 2024-05-26 07:55:29Z, activation date 2024-05-26 07:55:29Z, and expiration date 2024-08-24 07:55:29Z.
+2024-05-26 07:55:29.083 +00:00 [WRN] No XML encryptor configured. Key {56f80165-cad7-44da-a662-22e91a867c64} may be persisted to storage in unencrypted form.
+2024-05-26 07:55:29.112 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-05-26 07:55:29.139 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-26 07:55:29.140 +00:00 [INF] Quartz Scheduler created
+2024-05-26 07:55:29.141 +00:00 [INF] RAMJobStore initialized.
+2024-05-26 07:55:29.142 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-26 07:55:29.142 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-26 07:55:29.143 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-26 07:55:29.144 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-05-26 07:55:29.175 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-05-26 07:55:29.232 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-26 07:55:29.234 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 07:55:29.236 +00:00 [INF] Hosting environment: Development
+2024-05-26 07:55:29.236 +00:00 [INF] Content root path: /app
+2024-05-26 07:55:30.061 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:16:50.563 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:16:50.625 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:16:50.628 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:16:50.629 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:16:50.645 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:16:50.657 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:16:50.750 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-05-26 08:16:50.760 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:16:50.761 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:16:50.761 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:16:50.761 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:16:50.762 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:16:50.762 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:16:51.060 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:16:51.062 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:16:51.063 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:16:51.064 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:16:51.073 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:16:51.074 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:16:51.269 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-05-26 08:16:51.351 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-05-26 08:16:51.351 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-05-26 08:16:51.363 +00:00 [INF] Creating key {754816f5-df1b-4fd5-a97a-a068d7ada826} with creation date 2024-05-26 08:16:51Z, activation date 2024-05-26 08:16:51Z, and expiration date 2024-08-24 08:16:51Z.
+2024-05-26 08:16:51.369 +00:00 [WRN] No XML encryptor configured. Key {754816f5-df1b-4fd5-a97a-a068d7ada826} may be persisted to storage in unencrypted form.
+2024-05-26 08:16:51.395 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-05-26 08:16:51.421 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-26 08:16:51.422 +00:00 [INF] Quartz Scheduler created
+2024-05-26 08:16:51.423 +00:00 [INF] RAMJobStore initialized.
+2024-05-26 08:16:51.423 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-26 08:16:51.424 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-26 08:16:51.425 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-26 08:16:51.426 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-05-26 08:16:51.451 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-05-26 08:16:51.507 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-26 08:16:51.509 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 08:16:51.510 +00:00 [INF] Hosting environment: Development
+2024-05-26 08:16:51.510 +00:00 [INF] Content root path: /app
+2024-05-26 08:17:00.057 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:17:30.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:18:00.025 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:19:35.764 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:19:35.832 +00:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:19:35.835 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:19:35.836 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:19:35.854 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:19:35.867 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:19:35.976 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-05-26 08:19:35.987 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:19:35.987 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:19:35.987 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:19:35.988 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:19:35.988 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:19:35.989 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:19:36.359 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:19:36.361 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:19:36.363 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:19:36.364 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:19:36.374 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:19:36.375 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:19:36.578 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-05-26 08:19:36.666 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-05-26 08:19:36.667 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-05-26 08:19:36.679 +00:00 [INF] Creating key {07538544-4368-4a5b-9f96-d81fb3b05ff3} with creation date 2024-05-26 08:19:36Z, activation date 2024-05-26 08:19:36Z, and expiration date 2024-08-24 08:19:36Z.
+2024-05-26 08:19:36.685 +00:00 [WRN] No XML encryptor configured. Key {07538544-4368-4a5b-9f96-d81fb3b05ff3} may be persisted to storage in unencrypted form.
+2024-05-26 08:19:36.713 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-05-26 08:19:36.738 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-26 08:19:36.739 +00:00 [INF] Quartz Scheduler created
+2024-05-26 08:19:36.740 +00:00 [INF] RAMJobStore initialized.
+2024-05-26 08:19:36.741 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-26 08:19:36.742 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-26 08:19:36.742 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-26 08:19:36.744 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-05-26 08:19:36.767 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-05-26 08:19:36.821 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-26 08:19:36.823 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 08:19:36.824 +00:00 [INF] Hosting environment: Development
+2024-05-26 08:19:36.825 +00:00 [INF] Content root path: /app
+2024-05-26 08:20:00.053 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:20:30.006 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:21:37.081 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:21:37.148 +00:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:21:37.151 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:21:37.153 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:21:37.170 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:21:37.184 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:21:37.297 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-05-26 08:21:37.311 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:21:37.311 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:21:37.312 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:21:37.312 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:21:37.313 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:21:37.313 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:21:37.634 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:21:37.636 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:21:37.637 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:21:37.639 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:21:37.647 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:21:37.648 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:21:37.843 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-05-26 08:21:37.926 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-05-26 08:21:37.926 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-05-26 08:21:37.937 +00:00 [INF] Creating key {2be67a37-80cb-477e-b345-556931300861} with creation date 2024-05-26 08:21:37Z, activation date 2024-05-26 08:21:37Z, and expiration date 2024-08-24 08:21:37Z.
+2024-05-26 08:21:37.943 +00:00 [WRN] No XML encryptor configured. Key {2be67a37-80cb-477e-b345-556931300861} may be persisted to storage in unencrypted form.
+2024-05-26 08:21:37.971 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-05-26 08:21:37.996 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-26 08:21:37.997 +00:00 [INF] Quartz Scheduler created
+2024-05-26 08:21:37.998 +00:00 [INF] RAMJobStore initialized.
+2024-05-26 08:21:37.999 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-26 08:21:37.999 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-26 08:21:38.000 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-26 08:21:38.001 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-05-26 08:21:38.026 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-05-26 08:21:38.077 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-26 08:21:38.079 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 08:21:38.080 +00:00 [INF] Hosting environment: Development
+2024-05-26 08:21:38.080 +00:00 [INF] Content root path: /app
+2024-05-26 08:22:00.047 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:22:30.008 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:24:44.579 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:24:44.652 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:24:44.655 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:24:44.657 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:24:44.674 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:24:44.686 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:24:44.773 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-05-26 08:24:44.783 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:24:44.783 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:24:44.784 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:24:44.784 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:24:44.784 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:24:44.785 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:24:45.125 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:24:45.128 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:24:45.129 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:24:45.130 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:24:45.139 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:24:45.141 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:24:45.336 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-05-26 08:24:45.419 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-05-26 08:24:45.420 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-05-26 08:24:45.430 +00:00 [INF] Creating key {b2494cbd-e433-4452-8bcc-cc9d7ff489d8} with creation date 2024-05-26 08:24:45Z, activation date 2024-05-26 08:24:45Z, and expiration date 2024-08-24 08:24:45Z.
+2024-05-26 08:24:45.436 +00:00 [WRN] No XML encryptor configured. Key {b2494cbd-e433-4452-8bcc-cc9d7ff489d8} may be persisted to storage in unencrypted form.
+2024-05-26 08:24:45.461 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-05-26 08:24:45.486 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-26 08:24:45.487 +00:00 [INF] Quartz Scheduler created
+2024-05-26 08:24:45.488 +00:00 [INF] RAMJobStore initialized.
+2024-05-26 08:24:45.489 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-26 08:24:45.490 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-26 08:24:45.490 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-26 08:24:45.491 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-05-26 08:24:45.514 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-05-26 08:24:45.566 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-26 08:24:45.568 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 08:24:45.569 +00:00 [INF] Hosting environment: Development
+2024-05-26 08:24:45.569 +00:00 [INF] Content root path: /app
+2024-05-26 08:25:00.050 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 08:25:00.058 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:25:00.085 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 08:25:00.168 +00:00 [INF] Executed DbCommand (17ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 08:25:30.009 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 08:25:30.009 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:25:30.054 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 08:25:30.060 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 08:26:00.070 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 08:26:00.070 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:26:00.073 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 08:26:00.077 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 08:26:30.045 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:26:30.045 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 08:26:30.071 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 08:26:30.073 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 08:27:00.008 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:27:00.008 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 08:27:00.014 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 08:27:00.020 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 08:27:30.066 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 08:27:30.066 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:27:30.069 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 08:27:30.074 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 08:28:41.868 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:28:41.937 +00:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:28:41.940 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:28:41.942 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:28:41.959 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:28:41.972 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:28:42.058 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-05-26 08:28:42.068 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:28:42.068 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:28:42.069 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:28:42.069 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:28:42.070 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:28:42.070 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:28:42.373 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:28:42.375 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:28:42.376 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:28:42.378 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:28:42.387 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:28:42.388 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:28:42.597 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-05-26 08:28:42.679 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-05-26 08:28:42.680 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-05-26 08:28:42.691 +00:00 [INF] Creating key {77cf20e9-8a38-4221-8390-922ead992a54} with creation date 2024-05-26 08:28:42Z, activation date 2024-05-26 08:28:42Z, and expiration date 2024-08-24 08:28:42Z.
+2024-05-26 08:28:42.697 +00:00 [WRN] No XML encryptor configured. Key {77cf20e9-8a38-4221-8390-922ead992a54} may be persisted to storage in unencrypted form.
+2024-05-26 08:28:42.721 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-05-26 08:28:42.747 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-26 08:28:42.748 +00:00 [INF] Quartz Scheduler created
+2024-05-26 08:28:42.749 +00:00 [INF] RAMJobStore initialized.
+2024-05-26 08:28:42.750 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-26 08:28:42.751 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-26 08:28:42.752 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-26 08:28:42.753 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-05-26 08:28:42.778 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-05-26 08:28:42.830 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-26 08:28:42.832 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 08:28:42.833 +00:00 [INF] Hosting environment: Development
+2024-05-26 08:28:42.833 +00:00 [INF] Content root path: /app
+2024-05-26 08:29:00.048 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:29:30.009 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:33:15.997 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:33:16.061 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:33:16.064 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:33:16.066 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:33:16.083 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:33:16.096 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:33:16.184 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-05-26 08:33:16.194 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:33:16.195 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:33:16.195 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:33:16.196 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:33:16.196 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:33:16.197 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:33:16.541 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:33:16.543 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:33:16.544 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:33:16.545 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:33:16.555 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:33:16.556 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:33:16.756 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-05-26 08:33:16.841 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-05-26 08:33:16.842 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-05-26 08:33:16.853 +00:00 [INF] Creating key {500bfb4d-6942-4d2e-95d2-08226ec9c29a} with creation date 2024-05-26 08:33:16Z, activation date 2024-05-26 08:33:16Z, and expiration date 2024-08-24 08:33:16Z.
+2024-05-26 08:33:16.860 +00:00 [WRN] No XML encryptor configured. Key {500bfb4d-6942-4d2e-95d2-08226ec9c29a} may be persisted to storage in unencrypted form.
+2024-05-26 08:33:16.886 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-05-26 08:33:16.916 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-26 08:33:16.917 +00:00 [INF] Quartz Scheduler created
+2024-05-26 08:33:16.919 +00:00 [INF] RAMJobStore initialized.
+2024-05-26 08:33:16.920 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-26 08:33:16.920 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-26 08:33:16.921 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-26 08:33:16.923 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-05-26 08:33:16.955 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-05-26 08:33:17.011 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-26 08:33:17.013 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 08:33:17.014 +00:00 [INF] Hosting environment: Development
+2024-05-26 08:33:17.014 +00:00 [INF] Content root path: /app
+2024-05-26 08:33:30.061 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:34:00.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:34:20.072 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:34:20.136 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:34:20.139 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:34:20.140 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:34:20.156 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:34:20.168 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:34:20.257 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-05-26 08:34:20.267 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:34:20.267 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:34:20.268 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:34:20.268 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:34:20.269 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:34:20.269 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 08:34:20.581 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:34:20.583 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:34:20.584 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 08:34:20.586 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 08:34:20.595 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 08:34:20.596 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 08:34:20.784 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-05-26 08:34:20.865 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-05-26 08:34:20.866 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-05-26 08:34:20.876 +00:00 [INF] Creating key {1ac09e4b-75e0-4e64-acaf-2c09c9460ccc} with creation date 2024-05-26 08:34:20Z, activation date 2024-05-26 08:34:20Z, and expiration date 2024-08-24 08:34:20Z.
+2024-05-26 08:34:20.882 +00:00 [WRN] No XML encryptor configured. Key {1ac09e4b-75e0-4e64-acaf-2c09c9460ccc} may be persisted to storage in unencrypted form.
+2024-05-26 08:34:20.904 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-05-26 08:34:20.929 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-26 08:34:20.929 +00:00 [INF] Quartz Scheduler created
+2024-05-26 08:34:20.930 +00:00 [INF] RAMJobStore initialized.
+2024-05-26 08:34:20.931 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-26 08:34:20.932 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-26 08:34:20.933 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-26 08:34:20.934 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-05-26 08:34:20.957 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-05-26 08:34:21.013 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-26 08:34:21.015 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 08:34:21.016 +00:00 [INF] Hosting environment: Development
+2024-05-26 08:34:21.016 +00:00 [INF] Content root path: /app
+2024-05-26 08:34:30.044 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:34:45.011 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 08:34:45.049 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 08:34:45.135 +00:00 [INF] Executed DbCommand (21ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 08:35:00.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 08:35:00.059 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 08:35:00.061 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 08:35:00.067 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 08:35:30.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 09:19:30.543 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:19:30.609 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:19:30.613 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:19:30.615 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:19:30.636 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 09:19:30.651 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 09:19:30.748 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-05-26 09:19:30.757 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:19:30.758 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:19:30.758 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:19:30.759 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:19:30.759 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:19:30.760 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:19:31.085 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:19:31.087 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:19:31.088 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:19:31.089 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:19:31.099 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 09:19:31.100 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 09:19:31.304 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-05-26 09:19:31.388 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-05-26 09:19:31.388 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-05-26 09:19:31.399 +00:00 [INF] Creating key {88c5e8b5-745a-434f-9fc4-a25051230c01} with creation date 2024-05-26 09:19:31Z, activation date 2024-05-26 09:19:31Z, and expiration date 2024-08-24 09:19:31Z.
+2024-05-26 09:19:31.405 +00:00 [WRN] No XML encryptor configured. Key {88c5e8b5-745a-434f-9fc4-a25051230c01} may be persisted to storage in unencrypted form.
+2024-05-26 09:19:31.428 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-05-26 09:19:31.452 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-26 09:19:31.453 +00:00 [INF] Quartz Scheduler created
+2024-05-26 09:19:31.454 +00:00 [INF] RAMJobStore initialized.
+2024-05-26 09:19:31.455 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-26 09:19:31.455 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-26 09:19:31.456 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-26 09:19:31.457 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-05-26 09:19:31.479 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-05-26 09:19:31.534 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-26 09:19:31.536 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 09:19:31.537 +00:00 [INF] Hosting environment: Development
+2024-05-26 09:19:31.537 +00:00 [INF] Content root path: /app
+2024-05-26 09:19:45.047 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 09:19:45.079 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 09:19:45.163 +00:00 [INF] Executed DbCommand (17ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 09:20:00.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 09:20:00.051 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 09:20:00.056 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 09:20:00.061 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 09:29:29.345 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:29:29.416 +00:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:29:29.419 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:29:29.420 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:29:29.437 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 09:29:29.450 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 09:29:29.540 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-05-26 09:29:29.550 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:29:29.551 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:29:29.551 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:29:29.552 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:29:29.552 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:29:29.552 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:29:29.583 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:29:29.584 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:29:29.585 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:29:29.586 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:29:29.591 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 09:29:29.592 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 09:29:29.787 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-05-26 09:29:29.877 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-05-26 09:29:29.878 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-05-26 09:29:29.889 +00:00 [INF] Creating key {1d867186-11c9-4e98-9e74-bf0dc3963795} with creation date 2024-05-26 09:29:29Z, activation date 2024-05-26 09:29:29Z, and expiration date 2024-08-24 09:29:29Z.
+2024-05-26 09:29:29.895 +00:00 [WRN] No XML encryptor configured. Key {1d867186-11c9-4e98-9e74-bf0dc3963795} may be persisted to storage in unencrypted form.
+2024-05-26 09:29:29.921 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-05-26 09:29:29.952 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-26 09:29:29.953 +00:00 [INF] Quartz Scheduler created
+2024-05-26 09:29:29.954 +00:00 [INF] RAMJobStore initialized.
+2024-05-26 09:29:29.955 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-26 09:29:29.956 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-26 09:29:29.957 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-26 09:29:29.958 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-05-26 09:29:29.988 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-05-26 09:29:30.050 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-26 09:29:30.052 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 09:29:30.053 +00:00 [INF] Hosting environment: Development
+2024-05-26 09:29:30.054 +00:00 [INF] Content root path: /app
+2024-05-26 09:29:30.075 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 09:29:45.011 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 09:29:45.043 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 09:29:45.124 +00:00 [INF] Executed DbCommand (17ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 09:32:14.820 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:32:14.886 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:32:14.889 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:32:14.890 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:32:14.908 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 09:32:14.920 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 09:32:15.015 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-05-26 09:32:15.025 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:32:15.026 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:32:15.026 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:32:15.027 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:32:15.027 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:32:15.028 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:32:15.060 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:32:15.061 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:32:15.062 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:32:15.063 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:32:15.066 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 09:32:15.067 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 09:32:15.264 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-05-26 09:32:15.345 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-05-26 09:32:15.346 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-05-26 09:32:15.356 +00:00 [INF] Creating key {67b12562-9909-4d04-9316-b6750a9dd121} with creation date 2024-05-26 09:32:15Z, activation date 2024-05-26 09:32:15Z, and expiration date 2024-08-24 09:32:15Z.
+2024-05-26 09:32:15.363 +00:00 [WRN] No XML encryptor configured. Key {67b12562-9909-4d04-9316-b6750a9dd121} may be persisted to storage in unencrypted form.
+2024-05-26 09:32:15.387 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-05-26 09:32:15.413 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-26 09:32:15.413 +00:00 [INF] Quartz Scheduler created
+2024-05-26 09:32:15.414 +00:00 [INF] RAMJobStore initialized.
+2024-05-26 09:32:15.415 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-26 09:32:15.417 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-26 09:32:15.417 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-26 09:32:15.418 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-05-26 09:32:15.442 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-05-26 09:32:15.494 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-26 09:32:15.496 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 09:32:15.497 +00:00 [INF] Hosting environment: Development
+2024-05-26 09:32:15.497 +00:00 [INF] Content root path: /app
+2024-05-26 09:32:30.043 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 09:32:45.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 09:32:45.038 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 09:32:45.115 +00:00 [INF] Executed DbCommand (15ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 09:33:00.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 09:33:00.009 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 09:33:00.015 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 09:33:00.018 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 09:33:30.006 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 09:33:45.002 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 09:33:45.004 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 09:33:45.007 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 09:34:00.064 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 09:34:00.064 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 09:34:00.067 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 09:34:00.069 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 09:36:00.543 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:36:00.608 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:36:00.611 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:36:00.612 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:36:00.629 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 09:36:00.642 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 09:36:00.728 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-05-26 09:36:00.739 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:36:00.739 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:36:00.740 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:36:00.740 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:36:00.740 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:36:00.741 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-05-26 09:36:00.770 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:36:00.772 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:36:00.773 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-26 09:36:00.774 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-26 09:36:00.777 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-26 09:36:00.778 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-26 09:36:00.962 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetRoles] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-05-26 09:36:01.040 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-05-26 09:36:01.040 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-05-26 09:36:01.050 +00:00 [INF] Creating key {baad9d84-1687-4587-8fd5-deec60837b48} with creation date 2024-05-26 09:36:01Z, activation date 2024-05-26 09:36:01Z, and expiration date 2024-08-24 09:36:01Z.
+2024-05-26 09:36:01.057 +00:00 [WRN] No XML encryptor configured. Key {baad9d84-1687-4587-8fd5-deec60837b48} may be persisted to storage in unencrypted form.
+2024-05-26 09:36:01.079 +00:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-05-26 09:36:01.103 +00:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-05-26 09:36:01.104 +00:00 [INF] Quartz Scheduler created
+2024-05-26 09:36:01.105 +00:00 [INF] RAMJobStore initialized.
+2024-05-26 09:36:01.106 +00:00 [INF] Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-05-26 09:36:01.107 +00:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-05-26 09:36:01.107 +00:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-05-26 09:36:01.109 +00:00 [INF] JobFactory set to: Bookify.Jobs.SingletonJobFactory
+2024-05-26 09:36:01.133 +00:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-05-26 09:36:01.186 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-26 09:36:01.188 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-26 09:36:01.189 +00:00 [INF] Hosting environment: Development
+2024-05-26 09:36:01.189 +00:00 [INF] Content root path: /app
+2024-05-26 09:36:30.044 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]
+2024-05-26 09:36:45.006 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 09:36:45.038 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 09:36:45.118 +00:00 [INF] Executed DbCommand (15ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 09:37:00.010 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [reviews] AS [r]
+2024-05-26 09:37:00.012 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[ApartmentId], [r].[BookingId], [r].[Comment], [r].[CreatedOnUtc], [r].[Rating], [r].[UserId]
+FROM [reviews] AS [r]
+2024-05-26 09:37:00.017 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__randomReview_ApartmentId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__randomReview_ApartmentId_0
+2024-05-26 09:37:00.020 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [bookings] AS [b]

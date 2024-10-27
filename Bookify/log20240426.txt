@@ -1,0 +1,302 @@
+2024-04-26 18:16:29.520 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-26 18:16:29.574 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-26 18:16:29.577 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-26 18:16:29.579 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-26 18:16:29.596 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-26 18:16:29.609 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-04-26 18:16:29.711 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-04-26 18:16:29.722 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-26 18:16:29.722 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-26 18:16:29.723 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-26 18:16:29.723 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-26 18:16:29.723 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-26 18:16:29.724 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-26 18:16:30.099 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-26 18:16:30.101 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-26 18:16:30.103 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-26 18:16:30.104 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-26 18:16:30.114 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-26 18:16:30.115 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-04-26 18:16:30.219 +00:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-04-26 18:16:30.220 +00:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-04-26 18:16:30.230 +00:00 [INF] Creating key {64b915ad-3208-402d-a7e0-8dbf012f1b04} with creation date 2024-04-26 18:16:30Z, activation date 2024-04-26 18:16:30Z, and expiration date 2024-07-25 18:16:30Z.
+2024-04-26 18:16:30.239 +00:00 [WRN] No XML encryptor configured. Key {64b915ad-3208-402d-a7e0-8dbf012f1b04} may be persisted to storage in unencrypted form.
+2024-04-26 18:16:30.312 +00:00 [INF] Now listening on: http://[::]:8080
+2024-04-26 18:16:30.314 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-26 18:16:30.315 +00:00 [INF] Hosting environment: Development
+2024-04-26 18:16:30.315 +00:00 [INF] Content root path: /app
+2024-04-26 18:18:31.786 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-04-26 18:18:31.891 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 104.6921ms
+2024-04-26 18:18:31.928 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui.css - null null
+2024-04-26 18:18:31.929 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-bundle.js - null null
+2024-04-26 18:18:31.976 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-26 18:18:32.067 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-26 18:18:32.069 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui.css - 200 143943 text/css 141.1907ms
+2024-04-26 18:18:32.092 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-26 18:18:32.093 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 116.8185ms
+2024-04-26 18:18:32.125 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-26 18:18:32.126 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 196.9578ms
+2024-04-26 18:18:32.263 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-04-26 18:18:32.276 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/favicon-32x32.png - null null
+2024-04-26 18:18:32.277 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-26 18:18:32.278 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/favicon-32x32.png - 200 628 image/png 1.2347ms
+2024-04-26 18:18:32.391 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.7919ms
+2024-04-26 18:20:27.568 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/api/Users/register - application/json 162
+2024-04-26 18:20:27.650 +00:00 [INF] Executing endpoint 'Bookify.Controllers.UsersController.Register (Bookify)'
+2024-04-26 18:20:27.668 +00:00 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Bookify.Models.Requests.RegisterUserRequest) on controller Bookify.Controllers.UsersController (Bookify).
+2024-04-26 18:20:27.971 +00:00 [INF] Executed DbCommand (37ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-04-26 18:20:27.992 +00:00 [INF] Executing BadRequestObjectResult, writing value of type 'Bookify.Domain.Error'.
+2024-04-26 18:20:28.001 +00:00 [INF] Executed action Bookify.Controllers.UsersController.Register (Bookify) in 329.904ms
+2024-04-26 18:20:28.002 +00:00 [INF] Executed endpoint 'Bookify.Controllers.UsersController.Register (Bookify)'
+2024-04-26 18:20:28.005 +00:00 [INF] HTTP POST /api/Users/register responded 400 in 424.7931 ms
+2024-04-26 18:20:28.008 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Users/register
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 162
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-gpc: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 400
+Content-Type: application/json; charset=utf-8
+RequestBody: {
+  "firstName": "regina",
+  "lastName": "shaikhutdinova",
+  "email": "user555@example.com",
+  "password": "regina555User",
+  "confirmPassword": "regina555User"
+}
+RequestBodyStatus: [Completed]
+ResponseBody: {"code":"IdentityError.UserCreateFailed","name":"User creation was failed"}
+Duration: 431.8852
+2024-04-26 18:20:28.013 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/api/Users/register - 400 null application/json; charset=utf-8 444.3838ms
+2024-04-26 18:21:39.833 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/api/Users/register - application/json 162
+2024-04-26 18:21:39.861 +00:00 [INF] Executing endpoint 'Bookify.Controllers.UsersController.Register (Bookify)'
+2024-04-26 18:21:39.862 +00:00 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Bookify.Models.Requests.RegisterUserRequest) on controller Bookify.Controllers.UsersController (Bookify).
+2024-04-26 18:21:39.874 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-04-26 18:21:40.018 +00:00 [INF] Executed DbCommand (11ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-04-26 18:21:40.150 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2024-04-26 18:21:40.162 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-26 18:21:40.165 +00:00 [INF] Executed action Bookify.Controllers.UsersController.Register (Bookify) in 302.5923ms
+2024-04-26 18:21:40.166 +00:00 [INF] Executed endpoint 'Bookify.Controllers.UsersController.Register (Bookify)'
+2024-04-26 18:21:40.166 +00:00 [INF] HTTP POST /api/Users/register responded 200 in 329.9461 ms
+2024-04-26 18:21:40.167 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Users/register
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 162
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-gpc: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+RequestBody: {
+  "firstName": "regina",
+  "lastName": "shaikhutdinova",
+  "email": "user555@example.com",
+  "password": "1234512345Aa$",
+  "confirmPassword": "1234512345Aa$"
+}
+RequestBodyStatus: [Completed]
+ResponseBody: 3e9f29e2-8739-44a5-a65c-f1bfce08d488
+Duration: 330.8228
+2024-04-26 18:21:40.168 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/api/Users/register - 200 null text/plain; charset=utf-8 336.1037ms
+2024-04-26 18:22:06.731 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/api/Users/login - application/json 90
+2024-04-26 18:22:06.736 +00:00 [INF] Executing endpoint 'Bookify.Controllers.UsersController.LogIn (Bookify)'
+2024-04-26 18:22:06.742 +00:00 [INF] Route matched with {action = "LogIn", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogIn(Bookify.Models.Requests.LoginRequest) on controller Bookify.Controllers.UsersController (Bookify).
+2024-04-26 18:22:06.801 +00:00 [INF] Executed DbCommand (45ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-04-26 18:22:06.870 +00:00 [INF] Executing BadRequestObjectResult, writing value of type 'Bookify.Domain.Error'.
+2024-04-26 18:22:06.871 +00:00 [INF] Executed action Bookify.Controllers.UsersController.LogIn (Bookify) in 128.3273ms
+2024-04-26 18:22:06.871 +00:00 [INF] Executed endpoint 'Bookify.Controllers.UsersController.LogIn (Bookify)'
+2024-04-26 18:22:06.872 +00:00 [INF] HTTP POST /api/Users/login responded 400 in 138.6168 ms
+2024-04-26 18:22:06.873 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Users/login
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 90
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-gpc: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 400
+Content-Type: application/json; charset=utf-8
+RequestBody: {
+  "email": "user555@example.com",
+  "password": "3e9f29e2-8739-44a5-a65c-f1bfce08d488"
+}
+RequestBodyStatus: [Completed]
+ResponseBody: {"code":"IdentityError.IncorrectPassword","name":"The password is incorrect"}
+Duration: 139.1892
+2024-04-26 18:22:06.874 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/api/Users/login - 400 null application/json; charset=utf-8 143.8741ms
+2024-04-26 18:22:25.970 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/api/Users/login - application/json 67
+2024-04-26 18:22:25.971 +00:00 [INF] Executing endpoint 'Bookify.Controllers.UsersController.LogIn (Bookify)'
+2024-04-26 18:22:25.972 +00:00 [INF] Route matched with {action = "LogIn", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogIn(Bookify.Models.Requests.LoginRequest) on controller Bookify.Controllers.UsersController (Bookify).
+2024-04-26 18:22:25.979 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-04-26 18:22:26.107 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-26 18:22:26.108 +00:00 [INF] Executed action Bookify.Controllers.UsersController.LogIn (Bookify) in 135.8438ms
+2024-04-26 18:22:26.109 +00:00 [INF] Executed endpoint 'Bookify.Controllers.UsersController.LogIn (Bookify)'
+2024-04-26 18:22:26.109 +00:00 [INF] HTTP POST /api/Users/login responded 200 in 138.2155 ms
+2024-04-26 18:22:26.110 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Users/login
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 67
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-gpc: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8
+RequestBody: {
+  "email": "user555@example.com",
+  "password": "1234512345Aa$"
+}
+RequestBodyStatus: [Completed]
+ResponseBody: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjNlOWYyOWUyLTg3MzktNDRhNS1hNjVjLWYxYmZjZTA4ZDQ4OCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6InVzZXI1NTVAZXhhbXBsZS5jb20iLCJleHAiOjE3MTQyNDIxNDYsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjgwODAiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo4MDgwIn0.Q3QtlG0V047stoa3M5lLYBqIALrlwcTV87EQKbtNVwM
+Duration: 138.8295
+2024-04-26 18:22:26.111 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/api/Users/login - 200 null text/plain; charset=utf-8 140.7783ms
+2024-04-26 18:29:10.203 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/api/Review/post-review - application/json 95
+2024-04-26 18:29:10.234 +00:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-26 18:29:10.247 +00:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'IDX10820: Invalid character found in Base64UrlEncoding. Character: '32', Encoding: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.')
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode(String input, Int32 offset, Int32 length, Byte[] output)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-04-26 18:29:10.256 +00:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-04-26 18:29:10.256 +00:00 [INF] HTTP POST /api/Review/post-review responded 401 in 27.3261 ms
+2024-04-26 18:29:10.257 +00:00 [INF] Request and Response:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Review/post-review
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjNlOWYyOWUyLTg3MzktNDRhNS1hNjVjLWYxYmZjZTA4ZDQ4OCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6InVzZXI1NTVAZXhhbXBsZS5jb20iLCJleHAiOjE3MTQyNDIxNDYsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjgwODAiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo4MDgwIn0.Q3QtlG0V047stoa3M5lLYBqIALrlwcTV87EQKbtNVwM
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 95
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-gpc: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+RequestBody: 
+RequestBodyStatus: [Not consumed by app]
+Duration: 27.9273
+2024-04-26 18:29:10.257 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/api/Review/post-review - 401 0 null 54.2038ms

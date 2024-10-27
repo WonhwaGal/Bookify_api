@@ -1,0 +1,495 @@
+2024-04-05 10:42:36.922 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-04-05 10:42:36.982 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 10:42:36.983 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 10:42:36.983 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 10:42:36.983 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 10:42:36.984 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 10:42:36.984 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 10:42:37.850 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 10:42:37.869 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 10:42:37.872 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 10:42:37.874 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 10:42:37.891 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-05 10:42:37.902 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-04-05 10:42:38.021 +00:00 [INF] Now listening on: http://[::]:8080
+2024-04-05 10:42:38.023 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-05 10:42:38.024 +00:00 [INF] Hosting environment: Development
+2024-04-05 10:42:38.024 +00:00 [INF] Content root path: /app
+2024-04-05 10:45:00.669 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-04-05 10:45:00.765 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 96.2763ms
+2024-04-05 10:45:00.794 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui.css - null null
+2024-04-05 10:45:00.794 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-bundle.js - null null
+2024-04-05 10:45:00.837 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-05 10:45:00.936 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-05 10:45:00.941 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui.css - 200 143943 text/css 147.0692ms
+2024-04-05 10:45:00.946 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-05 10:45:00.946 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 109.0748ms
+2024-04-05 10:45:00.994 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-05 10:45:00.995 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 201.1673ms
+2024-04-05 10:45:01.134 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-04-05 10:45:01.147 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/favicon-32x32.png - null null
+2024-04-05 10:45:01.148 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-05 10:45:01.148 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/favicon-32x32.png - 200 628 image/png 1.0818ms
+2024-04-05 10:45:01.261 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 126.977ms
+2024-04-05 10:46:07.893 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - application/json 165
+2024-04-05 10:46:07.924 +00:00 [INF] Executing endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 10:46:07.941 +00:00 [INF] Route matched with {action = "ReceiveBooking", controller = "Booking"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveBooking(Bookify.Models.Requests.ReserveBookingRequest) on controller Bookify.Controllers.BookingController (Bookify).
+2024-04-05 10:46:07.978 +00:00 [INF] Executing UnprocessableEntityObjectResult, writing value of type 'Bookify.Models.Results.ErrorResult'.
+2024-04-05 10:46:07.987 +00:00 [INF] Executed action Bookify.Controllers.BookingController.ReceiveBooking (Bookify) in 42.2452ms
+2024-04-05 10:46:07.987 +00:00 [INF] Executed endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 10:46:07.989 +00:00 [INF] HTTP POST /api/Booking/reserve responded 422 in 66.2612 ms
+2024-04-05 10:46:07.991 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - 422 null application/json; charset=utf-8 98.3616ms
+2024-04-05 10:46:34.423 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - application/json 165
+2024-04-05 10:46:34.426 +00:00 [INF] Executing endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 10:46:34.428 +00:00 [INF] Route matched with {action = "ReceiveBooking", controller = "Booking"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveBooking(Bookify.Models.Requests.ReserveBookingRequest) on controller Bookify.Controllers.BookingController (Bookify).
+2024-04-05 10:46:34.433 +00:00 [INF] Запрос на бронирование
+2024-04-05 10:46:34.434 +00:00 [INF] Проверка параметров бронирования
+2024-04-05 10:46:34.665 +00:00 [INF] Executed DbCommand (30ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [users] AS [u]
+WHERE [u].[Id] = @__id_0
+2024-04-05 10:46:34.668 +00:00 [INF] Executing BadRequestObjectResult, writing value of type 'Bookify.Models.Results.Error'.
+2024-04-05 10:46:34.671 +00:00 [INF] Executed action Bookify.Controllers.BookingController.ReceiveBooking (Bookify) in 242.8414ms
+2024-04-05 10:46:34.672 +00:00 [INF] Executed endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 10:46:34.672 +00:00 [INF] HTTP POST /api/Booking/reserve responded 400 in 246.1391 ms
+2024-04-05 10:46:34.677 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - 400 null application/json; charset=utf-8 254.0199ms
+2024-04-05 13:44:52.703 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-04-05 13:44:52.774 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 13:44:52.775 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 13:44:52.775 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 13:44:52.775 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 13:44:52.776 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 13:44:52.776 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 13:44:53.668 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 13:44:53.686 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 13:44:53.689 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 13:44:53.691 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 13:44:53.708 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-05 13:44:53.721 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-04-05 13:44:53.849 +00:00 [INF] Now listening on: http://[::]:8080
+2024-04-05 13:44:53.851 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-05 13:44:53.852 +00:00 [INF] Hosting environment: Development
+2024-04-05 13:44:53.852 +00:00 [INF] Content root path: /app
+2024-04-05 14:36:40.400 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-04-05 14:36:40.460 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 14:36:40.461 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 14:36:40.461 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 14:36:40.461 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 14:36:40.462 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 14:36:40.462 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 14:36:41.224 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 14:36:41.245 +00:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 14:36:41.248 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 14:36:41.249 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 14:36:41.266 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-05 14:36:41.278 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-04-05 14:36:41.417 +00:00 [INF] Now listening on: http://[::]:8080
+2024-04-05 14:36:41.419 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-05 14:36:41.420 +00:00 [INF] Hosting environment: Development
+2024-04-05 14:36:41.420 +00:00 [INF] Content root path: /app
+2024-04-05 17:51:41.906 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-04-05 17:51:41.965 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 17:51:41.966 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 17:51:41.966 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 17:51:41.967 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 17:51:41.967 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 17:51:41.967 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 17:51:42.761 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 17:51:42.781 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 17:51:42.784 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 17:51:42.786 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 17:51:42.803 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-05 17:51:42.816 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-04-05 17:51:42.947 +00:00 [INF] Now listening on: http://[::]:8080
+2024-04-05 17:51:42.949 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-05 17:51:42.950 +00:00 [INF] Hosting environment: Development
+2024-04-05 17:51:42.950 +00:00 [INF] Content root path: /app
+2024-04-05 17:54:17.796 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-04-05 17:54:17.903 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 107.1985ms
+2024-04-05 17:54:17.931 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui.css - null null
+2024-04-05 17:54:17.931 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-bundle.js - null null
+2024-04-05 17:54:17.933 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-05 17:54:17.982 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-05 17:54:17.984 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui.css - 200 143943 text/css 53.5409ms
+2024-04-05 17:54:18.028 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-05 17:54:18.029 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 95.8984ms
+2024-04-05 17:54:18.107 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-05 17:54:18.107 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 176.2861ms
+2024-04-05 17:54:18.241 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-04-05 17:54:18.248 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/favicon-32x32.png - null null
+2024-04-05 17:54:18.269 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-05 17:54:18.290 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/favicon-32x32.png - 200 628 image/png 42.0873ms
+2024-04-05 17:54:18.406 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 165.1758ms
+2024-04-05 17:54:26.001 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - application/json 165
+2024-04-05 17:54:26.013 +00:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Booking/reserve
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 165
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-gpc: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2024-04-05 17:54:26.020 +00:00 [INF] Executing endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 17:54:26.037 +00:00 [INF] Route matched with {action = "ReceiveBooking", controller = "Booking"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveBooking(Bookify.Models.Requests.ReserveBookingRequest) on controller Bookify.Controllers.BookingController (Bookify).
+2024-04-05 17:54:26.058 +00:00 [INF] RequestBody: {
+  "apartmentId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "dateFrom": "2024-04-05",
+  "dateTo": "2024-04-05"
+}
+2024-04-05 17:54:26.079 +00:00 [INF] Executing UnprocessableEntityObjectResult, writing value of type 'Bookify.Models.Results.ErrorResult'.
+2024-04-05 17:54:26.084 +00:00 [INF] Response:
+StatusCode: 422
+Content-Type: application/json; charset=utf-8
+2024-04-05 17:54:26.088 +00:00 [INF] Executed action Bookify.Controllers.BookingController.ReceiveBooking (Bookify) in 47.8285ms
+2024-04-05 17:54:26.089 +00:00 [INF] Executed endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 17:54:26.091 +00:00 [INF] HTTP POST /api/Booking/reserve responded 422 in 72.8812 ms
+2024-04-05 17:54:26.092 +00:00 [INF] ResponseBody: {"errorCode":-106,"errorMessages":["Промежуток времени указан неверно: дата заезда больше или равна дате выезда","Дата заезда не может быть меньше или равна текущей"]}
+2024-04-05 17:54:26.095 +00:00 [INF] Duration: 82.8817ms
+2024-04-05 17:54:26.097 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - 422 null application/json; charset=utf-8 95.5902ms
+2024-04-05 17:55:42.509 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - application/json 165
+2024-04-05 17:55:42.512 +00:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Booking/reserve
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 165
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-gpc: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2024-04-05 17:55:42.513 +00:00 [INF] Executing endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 17:55:42.515 +00:00 [INF] Route matched with {action = "ReceiveBooking", controller = "Booking"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveBooking(Bookify.Models.Requests.ReserveBookingRequest) on controller Bookify.Controllers.BookingController (Bookify).
+2024-04-05 17:55:42.518 +00:00 [INF] RequestBody: {
+  "apartmentId": "e4bd3000-3687-45a2-8a80-1aa12a5138c5",
+  "userId": "91246a26-360c-4b51-ab6b-06303af2cbaf",
+  "dateFrom": "2024-05-02",
+  "dateTo": "2024-05-05"
+}
+2024-04-05 17:55:42.521 +00:00 [INF] Запрос на бронирование
+2024-04-05 17:55:42.523 +00:00 [INF] Проверка параметров бронирования
+2024-04-05 17:55:42.750 +00:00 [INF] Executed DbCommand (24ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [users] AS [u]
+WHERE [u].[Id] = @__id_0
+2024-04-05 17:55:42.810 +00:00 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-04-05 17:55:42.889 +00:00 [INF] Проверка дат
+2024-04-05 17:55:42.959 +00:00 [INF] Executed DbCommand (17ms) [Parameters=[@__apartment_Id_0='?' (DbType = Guid), @__ToDateTime_1='?' (DbType = DateTime2), @__ToDateTime_2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [bookings] AS [b]
+        WHERE [b].[ApartmentId] = @__apartment_Id_0 AND [b].[DateFrom] <= @__ToDateTime_1 AND [b].[DateTo] >= @__ToDateTime_2 AND [b].[Status] IN (1, 2)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-04-05 17:55:42.965 +00:00 [INF] Добавление бронирования в базу данных
+2024-04-05 17:55:43.100 +00:00 [INF] Executed DbCommand (8ms) [Parameters=[@p2='?' (DbType = Guid), @p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = Guid), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Guid), @p7='?' (DbType = DateTime2), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p11='?' (DbType = DateTime2), @p12='?' (DbType = DateTime2), @p13='?' (DbType = DateTime2), @p14='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Int32), @p17='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p18='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [apartments] SET [LastBookedOnUtc] = @p0, [Version] = @p1
+OUTPUT 1
+WHERE [Id] = @p2 AND [Version] = @p3;
+INSERT INTO [bookings] ([Id], [AmenitiesUpCharge], [ApartmentId], [CancelledOnUtc], [CleaningFee], [CompletedOnUtc], [ConfirmedOnUtc], [CreatedOnUtc], [DateFrom], [DateTo], [PriceForPeriod], [RejectedOnUtc], [Status], [TotalPrice], [UserId])
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+2024-04-05 17:55:43.116 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Guid'.
+2024-04-05 17:55:43.119 +00:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-05 17:55:43.120 +00:00 [INF] Executed action Bookify.Controllers.BookingController.ReceiveBooking (Bookify) in 604.3217ms
+2024-04-05 17:55:43.120 +00:00 [INF] Executed endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 17:55:43.121 +00:00 [INF] HTTP POST /api/Booking/reserve responded 200 in 608.2783 ms
+2024-04-05 17:55:43.121 +00:00 [INF] ResponseBody: "de896893-9735-40b9-a7b3-5ac242f83519"
+2024-04-05 17:55:43.122 +00:00 [INF] Duration: 610.2489ms
+2024-04-05 17:55:43.126 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - 200 null application/json; charset=utf-8 616.6564ms
+2024-04-05 18:16:15.687 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-04-05 18:16:15.745 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:16:15.746 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:16:15.747 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:16:15.747 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:16:15.748 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:16:15.748 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:16:16.225 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 18:16:16.244 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 18:16:16.246 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 18:16:16.248 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 18:16:16.259 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-05 18:16:16.270 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-04-05 18:16:16.401 +00:00 [INF] Now listening on: http://[::]:8080
+2024-04-05 18:16:16.403 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-05 18:16:16.404 +00:00 [INF] Hosting environment: Development
+2024-04-05 18:16:16.405 +00:00 [INF] Content root path: /app
+2024-04-05 18:21:11.847 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-04-05 18:21:11.904 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:21:11.904 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:21:11.905 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:21:11.905 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:21:11.906 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:21:11.906 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:21:12.412 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 18:21:12.431 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 18:21:12.434 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 18:21:12.435 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 18:21:12.446 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-05 18:21:12.457 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-04-05 18:21:12.600 +00:00 [INF] Now listening on: http://[::]:8080
+2024-04-05 18:21:12.602 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-05 18:21:12.603 +00:00 [INF] Hosting environment: Development
+2024-04-05 18:21:12.603 +00:00 [INF] Content root path: /app
+2024-04-05 18:21:44.259 +00:00 [WRN] The property 'Apartment.Amenities' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2024-04-05 18:21:44.319 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:21:44.320 +00:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Apartment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:21:44.320 +00:00 [WRN] No store type was specified for the decimal property 'AmenitiesUpCharge' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:21:44.321 +00:00 [WRN] No store type was specified for the decimal property 'CleaningFee' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:21:44.321 +00:00 [WRN] No store type was specified for the decimal property 'PriceForPeriod' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:21:44.322 +00:00 [WRN] No store type was specified for the decimal property 'TotalPrice' on entity type 'Booking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-04-05 18:21:44.810 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 18:21:44.829 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 18:21:44.832 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-05 18:21:44.834 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-05 18:21:44.845 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-05 18:21:44.858 +00:00 [INF] No migrations were applied. The database is already up to date.
+2024-04-05 18:21:44.990 +00:00 [INF] Now listening on: http://[::]:8080
+2024-04-05 18:21:44.992 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-05 18:21:44.993 +00:00 [INF] Hosting environment: Development
+2024-04-05 18:21:44.993 +00:00 [INF] Content root path: /app
+2024-04-05 18:23:05.488 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/index.html - null null
+2024-04-05 18:23:05.592 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/index.html - 200 null text/html;charset=utf-8 105.0488ms
+2024-04-05 18:23:05.784 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - null null
+2024-04-05 18:23:05.902 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 118.3355ms
+2024-04-05 18:23:41.558 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - application/json 165
+2024-04-05 18:23:41.573 +00:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Booking/reserve
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 165
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-gpc: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2024-04-05 18:23:41.602 +00:00 [INF] Executing endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 18:23:41.618 +00:00 [INF] Route matched with {action = "ReceiveBooking", controller = "Booking"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveBooking(Bookify.Models.Requests.ReserveBookingRequest) on controller Bookify.Controllers.BookingController (Bookify).
+2024-04-05 18:23:41.640 +00:00 [INF] RequestBody: {
+  "apartmentId": "13a4b0f0-4d83-4b85-b7f6-391e6586b043",
+  "userId": "07d25b15-df2b-45b6-baf5-16896eb1a230",
+  "dateFrom": "2024-06-05",
+  "dateTo": "2024-06-05"
+}
+2024-04-05 18:23:41.659 +00:00 [INF] Executing UnprocessableEntityObjectResult, writing value of type 'Bookify.Models.Results.ErrorResult'.
+2024-04-05 18:23:41.666 +00:00 [INF] Response:
+StatusCode: 422
+Content-Type: application/json; charset=utf-8
+2024-04-05 18:23:41.671 +00:00 [INF] Executed action Bookify.Controllers.BookingController.ReceiveBooking (Bookify) in 48.4589ms
+2024-04-05 18:23:41.671 +00:00 [INF] Executed endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 18:23:41.673 +00:00 [INF] HTTP POST /api/Booking/reserve responded 422 in 73.2141 ms
+2024-04-05 18:23:41.675 +00:00 [INF] ResponseBody: {"errorCode":-106,"errorMessages":["Промежуток времени указан неверно: дата заезда больше или равна дате выезда"]}
+2024-04-05 18:23:41.678 +00:00 [INF] Duration: 105.1962ms
+2024-04-05 18:23:41.679 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - 422 null application/json; charset=utf-8 121.4685ms
+2024-04-05 18:23:49.057 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - application/json 165
+2024-04-05 18:23:49.061 +00:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Booking/reserve
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 165
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-gpc: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2024-04-05 18:23:49.062 +00:00 [INF] Executing endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 18:23:49.064 +00:00 [INF] Route matched with {action = "ReceiveBooking", controller = "Booking"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveBooking(Bookify.Models.Requests.ReserveBookingRequest) on controller Bookify.Controllers.BookingController (Bookify).
+2024-04-05 18:23:49.068 +00:00 [INF] RequestBody: {
+  "apartmentId": "13a4b0f0-4d83-4b85-b7f6-391e6586b043",
+  "userId": "07d25b15-df2b-45b6-baf5-16896eb1a230",
+  "dateFrom": "2024-06-05",
+  "dateTo": "2024-06-02"
+}
+2024-04-05 18:23:49.070 +00:00 [INF] Executing UnprocessableEntityObjectResult, writing value of type 'Bookify.Models.Results.ErrorResult'.
+2024-04-05 18:23:49.071 +00:00 [INF] Response:
+StatusCode: 422
+Content-Type: application/json; charset=utf-8
+2024-04-05 18:23:49.073 +00:00 [INF] Executed action Bookify.Controllers.BookingController.ReceiveBooking (Bookify) in 7.8681ms
+2024-04-05 18:23:49.073 +00:00 [INF] Executed endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 18:23:49.074 +00:00 [INF] HTTP POST /api/Booking/reserve responded 422 in 12.4107 ms
+2024-04-05 18:23:49.075 +00:00 [INF] ResponseBody: {"errorCode":-106,"errorMessages":["Промежуток времени указан неверно: дата заезда больше или равна дате выезда"]}
+2024-04-05 18:23:49.076 +00:00 [INF] Duration: 15.6269ms
+2024-04-05 18:23:49.077 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - 422 null application/json; charset=utf-8 19.6907ms
+2024-04-05 18:23:57.325 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - application/json 165
+2024-04-05 18:23:57.326 +00:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/Booking/reserve
+QueryString: 
+Accept: text/plain
+Connection: keep-alive
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 165
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-gpc: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+2024-04-05 18:23:57.331 +00:00 [INF] Executing endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 18:23:57.333 +00:00 [INF] Route matched with {action = "ReceiveBooking", controller = "Booking"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReceiveBooking(Bookify.Models.Requests.ReserveBookingRequest) on controller Bookify.Controllers.BookingController (Bookify).
+2024-04-05 18:23:57.338 +00:00 [INF] RequestBody: {
+  "apartmentId": "13a4b0f0-4d83-4b85-b7f6-391e6586b043",
+  "userId": "07d25b15-df2b-45b6-baf5-16896eb1a230",
+  "dateFrom": "2024-06-05",
+  "dateTo": "2024-06-12"
+}
+2024-04-05 18:23:57.343 +00:00 [INF] Запрос на бронирование
+2024-04-05 18:23:57.344 +00:00 [INF] Проверка параметров бронирования
+2024-04-05 18:23:57.564 +00:00 [INF] Executed DbCommand (15ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password]
+FROM [users] AS [u]
+WHERE [u].[Id] = @__id_0
+2024-04-05 18:23:57.616 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Address], [a].[Amenities], [a].[CleaningFee], [a].[Description], [a].[LastBookedOnUtc], [a].[Name], [a].[Price], [a].[Version]
+FROM [apartments] AS [a]
+WHERE [a].[Id] = @__id_0
+2024-04-05 18:23:57.692 +00:00 [INF] Проверка дат
+2024-04-05 18:23:57.750 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__apartment_Id_0='?' (DbType = Guid), @__ToDateTime_1='?' (DbType = DateTime2), @__ToDateTime_2='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [bookings] AS [b]
+        WHERE [b].[ApartmentId] = @__apartment_Id_0 AND [b].[DateFrom] <= @__ToDateTime_1 AND [b].[DateTo] >= @__ToDateTime_2 AND [b].[Status] IN (1, 2)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-04-05 18:23:57.757 +00:00 [INF] Добавление бронирования в базу данных
+2024-04-05 18:23:57.930 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@p2='?' (DbType = Guid), @p0='?' (DbType = DateTime2), @p1='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = Guid), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Guid), @p7='?' (DbType = DateTime2), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p11='?' (DbType = DateTime2), @p12='?' (DbType = DateTime2), @p13='?' (DbType = DateTime2), @p14='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Int32), @p17='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p18='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [apartments] SET [LastBookedOnUtc] = @p0, [Version] = @p1
+OUTPUT 1
+WHERE [Id] = @p2 AND [Version] = @p3;
+INSERT INTO [bookings] ([Id], [AmenitiesUpCharge], [ApartmentId], [CancelledOnUtc], [CleaningFee], [CompletedOnUtc], [ConfirmedOnUtc], [CreatedOnUtc], [DateFrom], [DateTo], [PriceForPeriod], [RejectedOnUtc], [Status], [TotalPrice], [UserId])
+VALUES (@p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+2024-04-05 18:23:57.947 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Guid'.
+2024-04-05 18:23:57.950 +00:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-04-05 18:23:57.951 +00:00 [INF] Executed action Bookify.Controllers.BookingController.ReceiveBooking (Bookify) in 616.9545ms
+2024-04-05 18:23:57.951 +00:00 [INF] Executed endpoint 'Bookify.Controllers.BookingController.ReceiveBooking (Bookify)'
+2024-04-05 18:23:57.951 +00:00 [INF] HTTP POST /api/Booking/reserve responded 200 in 620.6147 ms
+2024-04-05 18:23:57.952 +00:00 [INF] ResponseBody: "7553bc32-b766-444b-8375-16e679db471d"
+2024-04-05 18:23:57.952 +00:00 [INF] Duration: 626.2026ms
+2024-04-05 18:23:57.956 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/api/Booking/reserve - 200 null application/json; charset=utf-8 630.8813ms
