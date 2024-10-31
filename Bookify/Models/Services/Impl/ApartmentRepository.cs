@@ -5,6 +5,8 @@ using Bookify.Models.Results;
 using Bookify.Services;
 using Dapper;
 using Microsoft.Identity.Client;
+using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace Bookify.Models.Services.Impl
 {
@@ -75,8 +77,10 @@ namespace Bookify.Models.Services.Impl
                                a.Name AS Name,
                                a.Description AS Description,
                                a.Price AS Price,
-                               a.Address AS Address
-                           FROM apartments AS a
+                               a.Address AS Address,
+                               a.Amenities
+                           FROM 
+                               apartments AS a
                            WHERE 
                                a.Price <= @searchedMaxPrice
                            AND
@@ -93,15 +97,25 @@ namespace Bookify.Models.Services.Impl
                            """;
 
             var apartments = connection
-              .Query<Apartment>(
+              .Query<Apartment, string, Apartment>(
                 sql,
-                new
+                map: (apartment, amenities) =>
+                {
+                    var enumAmenities = JsonConvert
+                        .DeserializeObject<ICollection<string>>(amenities)
+                        .Select(e => (Amenity)Enum.Parse(typeof(Amenity), e)).ToList();
+
+                    apartment.Amenities = enumAmenities;
+                    return apartment;
+                },
+                param: new
                 {
                     startDate,
                     endDate,
                     searchedMaxPrice,
                     ActiveBookingStatuses
-                });
+                },
+                splitOn: "Amenities");
 
             cacheService.SetAsync(cacheKey, apartments);
 

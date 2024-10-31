@@ -54,7 +54,7 @@ namespace Bookify.Models
         
         public DateTime? LastBookedOnUtc { get; internal set; }
         
-        public ICollection<Amenity> Amenities { get; private set; } = new List<Amenity>();
+        public ICollection<Amenity> Amenities { get; set; } = new List<Amenity>();
 
         [ConcurrencyCheck]
         public uint Version { get; set; }

@@ -23,9 +23,11 @@ namespace Bookify.Infrastructure.Configurations
             builder.Property(apartment => apartment.CleaningFee);
 
             var converter = new EnumCollectionJsonValueConverter<Amenity>();
+            var comparer = new CollectionValueComparer<Amenity>();
             builder
                 .Property(apartment => apartment.Amenities)
-                .HasConversion(converter);
+                .HasConversion(converter)
+                .Metadata.SetValueComparer(comparer);
 
             builder.Property<uint>("Version").IsConcurrencyToken();
         }
