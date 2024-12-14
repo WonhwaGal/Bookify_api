@@ -65,15 +65,6 @@ namespace Bookify.Extensions
             services.Configure<SmsClientOptions>(settings =>
                configuration.GetSection("ExternalServices:SmsClient").Bind(settings));
 
-            services.Configure<MyTestOptions1>(settings =>
-                configuration.GetSection("MyServices:MyService_1").Bind(settings));
-
-            services.Configure<MyTestOptions2>(settings =>
-            {
-                configuration.GetSection("MyServices:MyService_2").Bind(settings);
-                settings.ConnectionString = configuration.GetConnectionString("Bookify-Database");
-            });
-
             return services;
         }
 

@@ -9,6 +9,8 @@ services:
       dockerfile: Bookify/Dockerfile
     depends_on:
       - bookify-db
+    volumes:
+      - ./.logs/Bookify/Dev.Logs:/logs
   bookify-db:
     image: mcr.microsoft.com/mssql/server:latest
     container_name: Bookify.Db
