@@ -1,3 +1,5 @@
+<a href="https://github.com/WonhwaGal/Bookify_api/blob/booki_main/README_RU.md" target="_blank"><img src="/readme_resources/Git hub button.png" alt="Русская версия" height="45" width="175"></a>
+<hr>
 <h1>Bookify_api</h1>
 <h5>February 2024</h5>
 
