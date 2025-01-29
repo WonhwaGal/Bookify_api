@@ -4,8 +4,6 @@ using Bookify.Infrastructure.Services;
 using Bookify.Models.Results;
 using Bookify.Services;
 using Dapper;
-using Microsoft.Identity.Client;
-using System.Text.Json.Serialization;
 using Newtonsoft.Json;
 
 namespace Bookify.Models.Services.Impl
