@@ -10,7 +10,7 @@ This service allows users to register/login, as well as add apartments or search
 <h3>Includes:</h3>
 
 * **MSSql database** for users, apartments, bookings and reviews with **concurrency checks**;
-* **Microsoft Identity** and a separate Identity database;
+* **Microsoft Identity** (using Jwt Tokens) and a separate Identity database;
 * Docker compose;
 * Controller-based API;
 * Implemented logging (**Serilog**), caching (**Redis**), **HealthCheck** and **Quartz**;
